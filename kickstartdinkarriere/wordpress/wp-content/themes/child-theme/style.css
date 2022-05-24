@@ -39,3 +39,8 @@ section.elementor-section:nth-child(5) {
 section.elementor-section:nth-child(6) {
   background-color: #d1d9d1;
 }
+
+/* space imellem forløb på forløb siden*/
+.elementor-22 .elementor-element.elementor-element-700190b {
+  padding: 20px;
+}
