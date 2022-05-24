@@ -3,7 +3,7 @@
 Theme name: Child Theme
 Template: hello-elementor
 Author: Gruppe 3
-Version: 1.0.0
+Version: 2.5.0
 Description: Child theme of the Hello Elementor theme
 
 */
@@ -17,4 +17,19 @@ h6 {
   font-family: quincy-cf, serif;
   font-weight: 900;
   font-style: normal;
+}
+
+/*  ------------------------ forside ----------------- */
+/* baggrundsfarve under video + forløb section */
+section.elementor-section:nth-child(2) {
+  background-color: #d1d9d1;
+}
+section.elementor-section:nth-child(3) {
+  background-color: #d1d9d1;
+}
+section.elementor-section:nth-child(4) {
+  background-color: #d1d9d1;
+}
+section.elementor-section:nth-child(5) {
+  background-color: #d1d9d1;
 }
