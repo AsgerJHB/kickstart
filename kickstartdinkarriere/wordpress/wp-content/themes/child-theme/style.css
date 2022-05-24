@@ -7,3 +7,14 @@ Version: 1.0.0
 Description: Child theme of the Hello Elementor theme
 
 */
+/* <link rel="stylesheet" href="https://use.typekit.net/whn5nxy.css"> */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: quincy-cf, serif;
+  font-weight: 900;
+  font-style: normal;
+}
