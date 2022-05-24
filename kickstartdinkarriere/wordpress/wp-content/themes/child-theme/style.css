@@ -44,3 +44,6 @@ section.elementor-section:nth-child(6) {
 .elementor-column-gap-narrow {
   margin: 40px;
 }
+.elementor-column-gap-narrow {
+  --widgets-spacing: 70px;
+}
