@@ -19,7 +19,6 @@ while ( have_posts() ) :
 		<header class="page-header">
 			<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 		</header>
-		<h1>Hej med dig</h1>
 	<?php endif; ?>
 	<div class="page-content">
 		<?php the_content(); ?>
