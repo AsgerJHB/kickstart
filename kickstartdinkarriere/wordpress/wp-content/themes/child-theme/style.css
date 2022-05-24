@@ -41,6 +41,6 @@ section.elementor-section:nth-child(6) {
 }
 
 /* space imellem forløb på forløb siden*/
-main {
-  padding: 40px;
+.elementor-column-gap-narrow {
+  margin: 40px;
 }
