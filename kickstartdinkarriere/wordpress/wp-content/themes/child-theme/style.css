@@ -20,6 +20,10 @@ h6 {
 }
 
 /*  ------------------------ forside ----------------- */
+
+.elementor-element-27c574e > div:nth-child(1) {
+  background-color: green;
+}
 /* baggrundsfarve under video + forløb section */
 section.elementor-section:nth-child(2) {
   background-color: #d1d9d1;
