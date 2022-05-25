@@ -25,23 +25,8 @@ h6 {
   background-color: green;
 }
 /* baggrundsfarve under video + forløb section */
-section.elementor-section:nth-child(2) {
-  background-color: #d1d9d1;
-}
-
-section.elementor-section:nth-child(3) {
-  background-color: #d1d9d1;
-}
-
-section.elementor-section:nth-child(4) {
-  background-color: #d1d9d1;
-}
-
-section.elementor-section:nth-child(5) {
-  background-color: #d1d9d1;
-}
-section.elementor-section:nth-child(6) {
-  background-color: #d1d9d1;
+section.elementor-section:nth-child(2) > div:nth-child(1) {
+  background-color: #adcebe;
 }
 
 /* space imellem forløb på forløb siden*/
