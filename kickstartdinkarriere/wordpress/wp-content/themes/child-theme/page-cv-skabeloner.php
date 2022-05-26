@@ -22,6 +22,33 @@ while ( have_posts() ) :
 		</header>
 	<?php endif; ?>
 	<div class="page-content">
+hej med dig
+
+ <!-- <template>
+      <article class="projekt_card">
+        <div class="card_img"></div>
+        <div class="card_text">
+          <div>
+            <h3 class="projekt_titel"></h3>
+            <p class="kort_beskrivelse"></p>
+          </div>
+          <p class="trin"></p>
+        </div>
+     	</article>
+    </template> -->
+
+	<style>
+		.page-content {
+		background-color: green;}
+	</style>
+
+	<script>	
+    	const url = "http://asgerjhb.dk/kea/02_SEM/kickstartdinkarriere/wordpress/wp-json/wp/v2/cv-skabeloner";//wp-json
+
+		let cv-skabeloner; //json databasen
+      	let filter = "alle"; //variabel som ændrer sig alt efter hvilken filterknap du klikker på
+	</script>
+
 		<?php the_content(); ?>
 		<div class="post-tags">
 			<?php the_tags( '<span class="tag-links">' . __( 'Tagged ', 'hello-elementor' ), null, '</span>' ); ?>
