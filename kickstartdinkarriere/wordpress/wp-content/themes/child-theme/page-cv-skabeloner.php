@@ -79,7 +79,8 @@ hej med dig
 		  console.log(cv-skabeloner);
 		  cv-skabeloner.forEach(cv-skabelon =>{
 			
-			const klon = template.cloneNode(true).content
+			const klon = template.cloneNode(true).content;
+			
 		  })
 	  }
 
