@@ -21,6 +21,12 @@ while ( have_posts() ) :
 			<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 		</header>
 	<?php endif; ?>
+
+
+
+
+
+
 	<div class="page-content">
 hej med dig
 
@@ -37,17 +43,65 @@ hej med dig
      	</article>
     </template> -->
 
-	<style>
+	
+
+	<div id="filter_menu">
+      <h3 class="filtrer_h3">Filtrer CV-skabelonerne</h3>
+        <div id="filter">
+          <button class="filter-btn selected" data-category="alle">Alle</button>
+          <button class="filter-btn" data-category="simpel">Simpel</button>
+		  <button class="filter-btn" data-category="farverig">Farverig</button>
+		  <button class="filter-btn" data-category="formelt">Formelt</button>
+		  <button class="filter-btn" data-category="kreativ">Kreativ</button>
+        </div>
+    </div>
+
+	  <style>
 		.page-content {
-		background-color: green;}
+		background-color: #adbbad;}
+	
 	</style>
 
 	<script>	
-    	const url = "http://asgerjhb.dk/kea/02_SEM/kickstartdinkarriere/wordpress/wp-json/wp/v2/cv-skabeloner";//wp-json
-
+    	const url = "http://asgerjhb.dk/kea/02_SEM/kickstartdinkarriere/wordpress/wp-json/wp/v2/cv-skabelon?per_page=100";//wp-json
+		
 		let cv-skabeloner; //json databasen
       	let filter = "alle"; //variabel som ændrer sig alt efter hvilken filterknap du klikker på
+
+		async function fetchData() {
+        //kaldes når siden er loadet
+        let response = await fetch(url);
+        cv-skabeloner = await response.json();
+        visCv-skabeloner();
+      }
+
+	  function visCv-skabeloner(){
+		  console.log(cv-skabeloner);
+		  cv-skabeloner.forEach(cv-skabelon =>{
+			
+			const klon = template.cloneNode(true).content
+		  })
+	  }
+
 	</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 		<?php the_content(); ?>
 		<div class="post-tags">
