@@ -44,3 +44,7 @@ section.elementor-section:nth-child(2) > div:nth-child(1) {
 h1.entry-title {
   justify-content: center;
 }
+
+.elementor-kit-6 h1 {
+  justify-content: center;
+}
