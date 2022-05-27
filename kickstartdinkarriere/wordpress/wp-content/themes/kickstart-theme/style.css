@@ -17,6 +17,7 @@ h6 {
   font-weight: 900;
   font-family: quincy-cf, serif;
   font-style: normal;
+  justify-content: center !important;
 }
 .elementor-element-27c574e > div:nth-child(1) {
   background-color: green;
