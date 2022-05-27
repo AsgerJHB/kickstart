@@ -41,8 +41,6 @@ section.elementor-section:nth-child(2) > div:nth-child(1) {
   --widgets-spacing: 70px;
 }
 
-.elementor-column-gap-default
-  > .elementor-column
-  > .elementor-element-populated {
-  background-color: aqua;
+h1.entry-title {
+  justify-content: center;
 }
