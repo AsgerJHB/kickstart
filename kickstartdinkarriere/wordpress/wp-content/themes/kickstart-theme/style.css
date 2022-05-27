@@ -136,6 +136,42 @@ h1.entry-title {
   margin-left: 10px;
 }
 
+.elementor-22
+  .elementor-element.elementor-element-4e0ec26:not(.elementor-motion-effects-element-type-background)
+  > .elementor-widget-wrap,
+.elementor-22
+  .elementor-element.elementor-element-4e0ec26
+  > .elementor-widget-wrap
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  box-shadow: 6px 10px 13px -4px rgba(80, 80, 80, 0.67);
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.elementor-22
+  .elementor-element.elementor-element-9594065:not(.elementor-motion-effects-element-type-background)
+  > .elementor-widget-wrap,
+.elementor-22
+  .elementor-element.elementor-element-9594065
+  > .elementor-widget-wrap
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  box-shadow: 6px 10px 13px -4px rgba(80, 80, 80, 0.67);
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.elementor-22
+  .elementor-element.elementor-element-2a66d56:not(.elementor-motion-effects-element-type-background)
+  > .elementor-widget-wrap,
+.elementor-22
+  .elementor-element.elementor-element-2a66d56
+  > .elementor-widget-wrap
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  box-shadow: 6px 10px 13px -4px rgba(80, 80, 80, 0.67);
+  margin-right: 10px;
+  margin-left: 10px;
+}
 /* farve på menu */
 .site-header .site-navigation ul.menu li a {
   color: white;
