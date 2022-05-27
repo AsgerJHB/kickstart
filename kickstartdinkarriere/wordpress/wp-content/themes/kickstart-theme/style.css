@@ -7,6 +7,7 @@ Version: 2.5.0.1653644518
 Updated: 2022-05-27 09:41:58
 
 */
+@import url("https://use.typekit.net/nvc1apx.css");
 
 h1,
 h2,
@@ -17,8 +18,12 @@ h6 {
   display: grid;
   font-weight: 900;
   font-family: quincy-cf, serif;
-  font-style: normal;
-  justify-content: center !important;
+  justify-content: center;
+}
+
+p {
+  font-family: montserrat, sans-serif;
+  font-weight: 400;
 }
 
 .elementor-column-gap-narrow {
@@ -34,4 +39,20 @@ h6 {
 h1.entry-title {
   display: grid;
   justify-content: center !important;
+}
+
+.elementor-22 .elementor-element.elementor-element-f6ce970 {
+  color: aqua !important;
+}
+
+.elementor-28
+  .elementor-element.elementor-element-fb6074b
+  .elementor-heading-title {
+  display: grid;
+  justify-content: left !important;
+}
+
+.elementor-column.elementor-col-33,
+.elementor-column[data-col="33"] {
+  color: aqua !important;
 }
