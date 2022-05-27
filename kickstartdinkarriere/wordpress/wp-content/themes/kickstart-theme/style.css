@@ -53,8 +53,3 @@ h1.entry-title {
   display: grid;
   justify-content: left !important;
 }
-
-.elementor-column.elementor-col-33,
-.elementor-column[data-col="33"] {
-  color: aqua !important;
-}
