@@ -21,7 +21,9 @@ h6 {
   justify-content: center;
 }
 
-p {
+p,
+ul,
+li {
   font-family: montserrat, sans-serif;
   font-weight: 400;
 }
