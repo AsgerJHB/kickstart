@@ -54,12 +54,7 @@ h1.entry-title {
   justify-content: left !important;
 }
 
-/* forløb side -  mellemrum mellem forløb */
-.elementor-section {
-  padding: 10px;
-}
-
-/* box shadow på forløb */
+/* box shadow og mellemrum på forløb */
 .elementor-22
   .elementor-element.elementor-element-0f19fd9:not(.elementor-motion-effects-element-type-background)
   > .elementor-widget-wrap,
@@ -69,8 +64,8 @@ h1.entry-title {
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
   box-shadow: 6px 10px 13px -4px rgba(80, 80, 80, 0.67);
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 .elementor-22
   .elementor-element.elementor-element-93cd783:not(.elementor-motion-effects-element-type-background)
@@ -81,8 +76,8 @@ h1.entry-title {
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
   box-shadow: 6px 10px 13px -4px rgba(80, 80, 80, 0.67);
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 .elementor-22
   .elementor-element.elementor-element-d57701d:not(.elementor-motion-effects-element-type-background)
@@ -93,8 +88,8 @@ h1.entry-title {
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
   box-shadow: 6px 10px 13px -4px rgba(80, 80, 80, 0.67);
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .elementor-22
@@ -106,8 +101,8 @@ h1.entry-title {
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
   box-shadow: 6px 10px 13px -4px rgba(80, 80, 80, 0.67);
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .elementor-22
@@ -119,8 +114,8 @@ h1.entry-title {
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
   box-shadow: 6px 10px 13px -4px rgba(80, 80, 80, 0.67);
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .elementor-22
@@ -132,8 +127,8 @@ h1.entry-title {
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
   box-shadow: 6px 10px 13px -4px rgba(80, 80, 80, 0.67);
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .elementor-22
@@ -145,8 +140,8 @@ h1.entry-title {
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
   box-shadow: 6px 10px 13px -4px rgba(80, 80, 80, 0.67);
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 .elementor-22
   .elementor-element.elementor-element-9594065:not(.elementor-motion-effects-element-type-background)
@@ -157,8 +152,8 @@ h1.entry-title {
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
   box-shadow: 6px 10px 13px -4px rgba(80, 80, 80, 0.67);
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 .elementor-22
   .elementor-element.elementor-element-2a66d56:not(.elementor-motion-effects-element-type-background)
@@ -169,8 +164,8 @@ h1.entry-title {
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
   box-shadow: 6px 10px 13px -4px rgba(80, 80, 80, 0.67);
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 /* farve på menu */
 .site-header .site-navigation ul.menu li a {
