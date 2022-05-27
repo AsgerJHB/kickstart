@@ -33,6 +33,7 @@ li {
   margin: 40px;
 }
 
+/* h1 på andre sider */
 .elementor-kit-6 h1 {
   display: grid;
   justify-content: center !important;
@@ -41,15 +42,38 @@ li {
 h1.entry-title {
   display: grid;
   justify-content: center !important;
+  margin-top: 20px;
 }
 
-.elementor-22 .elementor-element.elementor-element-f6ce970 {
-  color: aqua !important;
-}
+/* H1 på forside */
 
 .elementor-28
   .elementor-element.elementor-element-fb6074b
   .elementor-heading-title {
   display: grid;
   justify-content: left !important;
+}
+
+/* forløb side -  mellemrum mellem forløb */
+.elementor-section {
+  padding: 10px;
+}
+.elementor-22
+  .elementor-element.elementor-element-0f19fd9:not(.elementor-motion-effects-element-type-background)
+  > .elementor-widget-wrap,
+.elementor-22
+  .elementor-element.elementor-element-0f19fd9
+  > .elementor-widget-wrap
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  box-shadow: 20px;
+}
+
+/* farve på menu */
+.site-header .site-navigation ul.menu li a {
+  color: white;
+}
+
+.site-navigation ul.menu li ul li {
+  background-color: #7e9178;
 }
