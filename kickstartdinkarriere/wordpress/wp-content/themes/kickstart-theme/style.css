@@ -1,13 +1,39 @@
-/* Theme Name: kickstart_theme
-Template:    astra
-Version:     3.8.1
-Description: Child theme of hello-elementor
-Author:      Gruppe 3 - KEA */
+/*
+Theme Name: kickstart-theme
+Template: hello-elementor
+Author: Gruppe 3
+Description: Child theme of the Hello Elementor theme
+Version: 2.5.0.1653644518
+Updated: 2022-05-27 09:41:58
 
-main {
-  background-color: aqua !important;
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 900;
+  font-family: quincy-cf, serif;
+  font-style: normal;
 }
-
-h1 {
-  color: red !important;
+.elementor-element-27c574e > div:nth-child(1) {
+  background-color: green;
+}
+section.elementor-section:nth-child(2) > div:nth-child(1) {
+  background-color: #adcebe;
+}
+.elementor-element-13ac69b > div:nth-child(1) > h2:nth-child(1) {
+  color: blue !important;
+}
+.elementor-column-gap-narrow {
+  --widgets-spacing: 70px;
+  margin: 40px;
+}
+h1.entry-title {
+  justify-content: center;
+}
+.elementor-kit-6 h1 {
+  justify-content: center !important;
 }
