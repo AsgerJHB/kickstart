@@ -1,0 +1,50 @@
+/* Theme Name: Child Theme
+Template: hello-elementor
+Version: 2.5.0
+Description: Child theme of the Hello Elementor theme
+Author: Gruppe 3
+ */
+
+/* CSS Document */
+
+/* <link rel="stylesheet" href="https://use.typekit.net/whn5nxy.css"> */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: quincy-cf, serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+/*  ------------------------ forside ----------------- */
+
+.elementor-element-27c574e > div:nth-child(1) {
+  background-color: green;
+}
+/* baggrundsfarve under video + forløb section */
+section.elementor-section:nth-child(2) > div:nth-child(1) {
+  background-color: #adcebe;
+}
+
+.elementor-element-13ac69b > div:nth-child(1) > h2:nth-child(1) {
+  color: blue !important ;
+}
+
+/* space imellem forløb på forløb siden*/
+.elementor-column-gap-narrow {
+  margin: 40px;
+}
+.elementor-column-gap-narrow {
+  --widgets-spacing: 70px;
+}
+
+h1.entry-title {
+  justify-content: center;
+}
+
+.elementor-kit-6 h1 {
+  justify-content: center !important;
+}
