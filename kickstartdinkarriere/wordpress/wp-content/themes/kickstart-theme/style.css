@@ -66,7 +66,27 @@ h1.entry-title {
   > .elementor-widget-wrap
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  box-shadow: 20px;
+  box-shadow: 6px 10px 13px -4px rgba(80, 80, 80, 0.67);
+}
+.elementor-22
+  .elementor-element.elementor-element-93cd783:not(.elementor-motion-effects-element-type-background)
+  > .elementor-widget-wrap,
+.elementor-22
+  .elementor-element.elementor-element-93cd783
+  > .elementor-widget-wrap
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  box-shadow: 6px 10px 13px -4px rgba(80, 80, 80, 0.67);
+}
+.elementor-22
+  .elementor-element.elementor-element-d57701d:not(.elementor-motion-effects-element-type-background)
+  > .elementor-widget-wrap,
+.elementor-22
+  .elementor-element.elementor-element-d57701d
+  > .elementor-widget-wrap
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  box-shadow: 6px 10px 13px -4px rgba(80, 80, 80, 0.67);
 }
 
 /* farve på menu */
