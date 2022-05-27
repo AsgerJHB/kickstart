@@ -17,15 +17,19 @@ h5,
 h6 {
   display: grid;
   font-weight: 900;
-  font-family: quincy-cf, serif;
+  font-family: quincy-cf, serif !important;
   justify-content: center;
 }
 
 p,
 ul,
 li {
-  font-family: montserrat, sans-serif;
+  font-family: montserrat, sans-serif !important;
   font-weight: 400;
+}
+a {
+  font-family: montserrat, sans-serif !important;
+  text-decoration: none !important;
 }
 
 .elementor-column-gap-narrow {
@@ -174,4 +178,16 @@ h1.entry-title {
 
 .site-navigation ul.menu li ul li {
   background-color: #7e9178;
+}
+
+/* ------------------------------------- forside ---------------------------------------- */
+
+#forside_section4h {
+  background-color: #ecede9 !important;
+}
+/* --------- fonte + farve på forsiden ----------*/
+/* H1 splashvideo */
+h1.elementor-heading-title {
+  font-family: quincy-cf, black !important;
+  color: #242323 !important;
 }
