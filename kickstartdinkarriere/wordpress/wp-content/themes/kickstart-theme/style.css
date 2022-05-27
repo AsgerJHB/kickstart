@@ -69,6 +69,8 @@ h1.entry-title {
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
   box-shadow: 6px 10px 13px -4px rgba(80, 80, 80, 0.67);
+  margin-right: 10px;
+  margin-left: 10px;
 }
 .elementor-22
   .elementor-element.elementor-element-93cd783:not(.elementor-motion-effects-element-type-background)
@@ -79,6 +81,8 @@ h1.entry-title {
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
   box-shadow: 6px 10px 13px -4px rgba(80, 80, 80, 0.67);
+  margin-right: 10px;
+  margin-left: 10px;
 }
 .elementor-22
   .elementor-element.elementor-element-d57701d:not(.elementor-motion-effects-element-type-background)
@@ -89,6 +93,47 @@ h1.entry-title {
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
   box-shadow: 6px 10px 13px -4px rgba(80, 80, 80, 0.67);
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.elementor-22
+  .elementor-element.elementor-element-8a661d3:not(.elementor-motion-effects-element-type-background)
+  > .elementor-widget-wrap,
+.elementor-22
+  .elementor-element.elementor-element-8a661d3
+  > .elementor-widget-wrap
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  box-shadow: 6px 10px 13px -4px rgba(80, 80, 80, 0.67);
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.elementor-22
+  .elementor-element.elementor-element-a09b049:not(.elementor-motion-effects-element-type-background)
+  > .elementor-widget-wrap,
+.elementor-22
+  .elementor-element.elementor-element-a09b049
+  > .elementor-widget-wrap
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  box-shadow: 6px 10px 13px -4px rgba(80, 80, 80, 0.67);
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.elementor-22
+  .elementor-element.elementor-element-440da57:not(.elementor-motion-effects-element-type-background)
+  > .elementor-widget-wrap,
+.elementor-22
+  .elementor-element.elementor-element-440da57
+  > .elementor-widget-wrap
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  box-shadow: 6px 10px 13px -4px rgba(80, 80, 80, 0.67);
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 /* farve på menu */
