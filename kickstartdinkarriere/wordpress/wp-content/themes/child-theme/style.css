@@ -40,3 +40,9 @@ section.elementor-section:nth-child(2) > div:nth-child(1) {
 .elementor-column-gap-narrow {
   --widgets-spacing: 70px;
 }
+
+.elementor-column-gap-default
+  > .elementor-column
+  > .elementor-element-populated {
+  background-color: aqua;
+}
