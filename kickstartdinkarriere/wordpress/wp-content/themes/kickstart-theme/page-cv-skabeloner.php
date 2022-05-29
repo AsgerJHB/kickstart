@@ -30,18 +30,14 @@ while ( have_posts() ) :
 	<div class="page-content">
 hej med dig
 
- <!-- <template>
-      <article class="projekt_card">
-        <div class="card_img"></div>
-        <div class="card_text">
-          <div>
-            <h3 class="projekt_titel"></h3>
-            <p class="kort_beskrivelse"></p>
-          </div>
-          <p class="trin"></p>
-        </div>
-     	</article>
-    </template> -->
+ <template>
+    <article class="skabelon">
+        <div class="img"></div>
+        <h3 class="overskrift"></h3>
+        <p class="kort_beskrivelse"></p>
+    	<p class="pris"></p>
+    </article>
+</template>
 
 	
 
@@ -65,22 +61,28 @@ hej med dig
 	<script>	
     	const url = "http://asgerjhb.dk/kea/02_SEM/kickstartdinkarriere/wordpress/wp-json/wp/v2/cv-skabelon?per_page=100";//wp-json
 		
-		let cv-skabeloner; //json databasen
+		let skabeloner; //json databasen
       	let filter = "alle"; //variabel som ændrer sig alt efter hvilken filterknap du klikker på
 
 		async function fetchData() {
         //kaldes når siden er loadet
         let response = await fetch(url);
-        cv-skabeloner = await response.json();
-        visCv-skabeloner();
+        skabeloner = await response.json();
+        visSkabeloner();
       }
 
-	  function visCv-skabeloner(){
-		  console.log(cv-skabeloner);
-		  cv-skabeloner.forEach(cv-skabelon =>{
-			
+	  function visSkabeloner(){
+		const template = document.querySelector("template").content;
+		  console.log(skabeloner);
+		  
+	 skabeloner.forEach(skabelon =>{
 			const klon = template.cloneNode(true).content;
-			
+			clone.querySelector(".img").style.backgroundImage = `url(${skabelon.billede.guid})`;
+            clone.querySelector(".overskrift").textContent = `${skabelon.title.rendered}`;
+            clone.querySelector(".kort_beskrivelse").textContent = `${skabelon.kortbeskrivelse}`;
+            clone.querySelector(".pris").textContent = `${skabelon.pris}`;
+            clone.querySelector("article").addEventListener("click", () => location.href = `${skabelon.link}`); //gør det klikbart og kalder på showPopUp() funktionen med city som parameter
+            mainContent.appendChild(clone);
 		  })
 	  }
 
