@@ -180,6 +180,116 @@ h1.entry-title {
   background-color: #7e9178;
 }
 
+/* box shadow og margin på enkeltydelser */
+.elementor-941
+  .elementor-element.elementor-element-0f19fd9:not(.elementor-motion-effects-element-type-background)
+  > .elementor-widget-wrap,
+.elementor-941
+  .elementor-element.elementor-element-0f19fd9
+  > .elementor-widget-wrap
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  box-shadow: 6px 10px 13px -4px rgba(80, 80, 80, 0.67) !important;
+  margin-right: 20px !important;
+  margin-left: 20px !important;
+}
+.elementor-941
+  .elementor-element.elementor-element-93cd783:not(.elementor-motion-effects-element-type-background)
+  > .elementor-widget-wrap,
+.elementor-941
+  .elementor-element.elementor-element-93cd783
+  > .elementor-widget-wrap
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  box-shadow: 6px 10px 13px -4px rgba(80, 80, 80, 0.67) !important;
+  margin-right: 20px !important;
+  margin-left: 20px !important;
+}
+.elementor-941
+  .elementor-element.elementor-element-d57701d:not(.elementor-motion-effects-element-type-background)
+  > .elementor-widget-wrap,
+.elementor-941
+  .elementor-element.elementor-element-d57701d
+  > .elementor-widget-wrap
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  box-shadow: 6px 10px 13px -4px rgba(80, 80, 80, 0.67) !important;
+  margin-right: 20px !important;
+  margin-left: 20px !important;
+}
+.elementor-941
+  .elementor-element.elementor-element-8a661d3:not(.elementor-motion-effects-element-type-background)
+  > .elementor-widget-wrap,
+.elementor-941
+  .elementor-element.elementor-element-8a661d3
+  > .elementor-widget-wrap
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  box-shadow: 6px 10px 13px -4px rgba(80, 80, 80, 0.67) !important;
+  margin-right: 20px !important;
+  margin-left: 20px !important;
+}
+.elementor-941
+  .elementor-element.elementor-element-a09b049:not(.elementor-motion-effects-element-type-background)
+  > .elementor-widget-wrap,
+.elementor-941
+  .elementor-element.elementor-element-a09b049
+  > .elementor-widget-wrap
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  box-shadow: 6px 10px 13px -4px rgba(80, 80, 80, 0.67) !important;
+  margin-right: 20px !important;
+  margin-left: 20px !important;
+}
+.elementor-941
+  .elementor-element.elementor-element-440da57:not(.elementor-motion-effects-element-type-background)
+  > .elementor-widget-wrap,
+.elementor-941
+  .elementor-element.elementor-element-440da57
+  > .elementor-widget-wrap
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  box-shadow: 6px 10px 13px -4px rgba(80, 80, 80, 0.67) !important;
+  margin-right: 20px !important;
+  margin-left: 20px !important;
+}
+.elementor-941
+  .elementor-element.elementor-element-4e0ec26:not(.elementor-motion-effects-element-type-background)
+  > .elementor-widget-wrap,
+.elementor-941
+  .elementor-element.elementor-element-4e0ec26
+  > .elementor-widget-wrap
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  box-shadow: 6px 10px 13px -4px rgba(80, 80, 80, 0.67) !important;
+  margin-right: 20px !important;
+  margin-left: 20px !important;
+}
+.elementor-941
+  .elementor-element.elementor-element-9594065:not(.elementor-motion-effects-element-type-background)
+  > .elementor-widget-wrap,
+.elementor-941
+  .elementor-element.elementor-element-9594065
+  > .elementor-widget-wrap
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  box-shadow: 6px 10px 13px -4px rgba(80, 80, 80, 0.67) !important;
+  margin-right: 20px !important;
+  margin-left: 20px !important;
+}
+.elementor-941
+  .elementor-element.elementor-element-2a66d56:not(.elementor-motion-effects-element-type-background)
+  > .elementor-widget-wrap,
+.elementor-941
+  .elementor-element.elementor-element-2a66d56
+  > .elementor-widget-wrap
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  box-shadow: 6px 10px 13px -4px rgba(80, 80, 80, 0.67) !important;
+  margin-right: 20px !important;
+  margin-left: 20px !important;
+}
+
 /* ------------------------------------- forside ---------------------------------------- */
 
 #forside_section4h {
