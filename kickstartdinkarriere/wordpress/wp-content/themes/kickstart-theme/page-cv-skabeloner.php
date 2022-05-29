@@ -24,11 +24,20 @@ while ( have_posts() ) :
 
 
 
+<div class="page-content">
 
+<style>
+	* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+	
+	  .page-content {
+		background-color: #adbbad;}
+	
+</style>
 
-
-	<div class="page-content">
-hej med dig
 
  <template>
     <article class="skabelon">
@@ -39,24 +48,24 @@ hej med dig
     </article>
 </template>
 
-	
-
+<main id="main_content">
+<div class="intro">
+    <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum nesciunt officia unde quidem nulla nostrum animi modi! Eius amet laudantium ex ratione, veniam, sapiente suscipit dolor beatae, facere excepturi optio.
+    </p>
+        <br>
 	<div id="filter_menu">
       <h3 class="filtrer_h3">Filtrer CV-skabelonerne</h3>
         <div id="filter">
           <button class="filter-btn selected" data-category="alle">Alle</button>
           <button class="filter-btn" data-category="simpel">Simpel</button>
 		  <button class="filter-btn" data-category="farverig">Farverig</button>
-		  <button class="filter-btn" data-category="formelt">Formelt</button>
+		  <button class="filter-btn" data-category="formelt">Formel</button>
 		  <button class="filter-btn" data-category="kreativ">Kreativ</button>
         </div>
     </div>
+</main> 
 
-	  <style>
-		.page-content {
-		background-color: #adbbad;}
-	
-	</style>
 
 	<script>	
     	const url = "http://asgerjhb.dk/kea/02_SEM/kickstartdinkarriere/wordpress/wp-json/wp/v2/cv-skabelon?per_page=100";//wp-json
