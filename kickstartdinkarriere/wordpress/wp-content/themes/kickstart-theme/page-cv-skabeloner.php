@@ -38,8 +38,6 @@ while ( have_posts() ) :
 	
 </style>
 
-<!DOCTYPE html>
-<html lang="en">
  <template>
     <article class="skabelon">
         <div class="img"></div>
@@ -66,7 +64,6 @@ while ( have_posts() ) :
         </div>
     </div>
 </main> 
-</html>
 
 	<script>	
     	const url = "http://asgerjhb.dk/kea/02_SEM/kickstartdinkarriere/wordpress/wp-json/wp/v2/cv-skabelon?per_page=100";//wp-json
