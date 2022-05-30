@@ -28,25 +28,12 @@ while ( have_posts() ) :
 
 
 	<div class="page-content">
-hej med dig
 
- <!-- <template>
-      <article class="projekt_card">
-        <div class="card_img"></div>
-        <div class="card_text">
-          <div>
-            <h3 class="projekt_titel"></h3>
-            <p class="kort_beskrivelse"></p>
-          </div>
-          <p class="trin"></p>
-        </div>
-     	</article>
-    </template> -->
 
 	
 
 	<div id="filter_menu">
-      <h3 class="filtrer_h3">Filtrer CV-skabelonerne</h3>
+      <h3 class="filtrer_h3">Filtrer cv-skabelonerne</h3>
         <div id="filter">
           <button class="filter-btn selected" data-category="alle">Alle</button>
           <button class="filter-btn" data-category="simpel">Simpel</button>
@@ -68,21 +55,48 @@ hej med dig
 		let cv-skabeloner; //json databasen
       	let filter = "alle"; //variabel som ændrer sig alt efter hvilken filterknap du klikker på
 
+		document.addEventListener("DOMContentLoaded", () => {
+        //venter indtil siden er loadet før knapperne bliver funktionelle
+        const filterButtons = document.querySelectorAll(".filter-btn");
+        filterButtons.forEach((button) => {
+          button.addEventListener("click", filterCV); //knapperne kalder på filterCV() funktionen, når man klikker
+        }); 
+        fetchData(); //kalder på fetchData() funktionen
+      });
+
 		async function fetchData() {
         //kaldes når siden er loadet
         let response = await fetch(url);
         cv-skabeloner = await response.json();
-        visCv-skabeloner();
+        display(cv-skabeloner); //kalder på display() funktionen med projekter som parameter
+        //console.log(projekter);
       }
 
-	  function visCv-skabeloner(){
-		  console.log(cv-skabeloner);
-		  cv-skabeloner.forEach(cv-skabelon =>{
-			
-			const klon = template.cloneNode(true).content;
-			
-		  })
-	  }
+		function filterCV() {
+        //bliver kaldt når knapperne klikkes på
+        filter = this.dataset.category; //variablen ændres til den knap man klikker på
+        document.querySelector(".selected").classList.remove("selected");
+        this.classList.add("selected");
+        display(); //kalder på display() funktionen
+      }
+
+	  function display() {
+        //kaldes når databasen er hentet eller når en filterknap klikkes
+        const mainContent = document.getElementById("content_cv-skabeloner");
+        const template = document.querySelector("template").content;
+        mainContent.textContent = ""; //fjerner sektionens indhold
+
+        CV-skabeloner.forEach((cv-skabelon) => {
+          if (filter == "alle" || cv-skabelon.overskrift == "n/a" || cv-skabelon.overskrift) {
+            //hvis objektet har samme værdi som filterknappen
+            const clone = template.cloneNode(true);
+			clone.querySelector(".billede").style.backgroundImage = `url(${cv-skabelon.billede.guid})`;
+            clone.querySelector(".cv-skabelon_titel").textContent = `${cv-skabelon.title.rendered}`;
+            clone.querySelector(".kort_beskrivelse").textContent = `${cv-skabelon.kortbeskrivelse}`;
+            clone.querySelector("article").addEventListener("click", () => location.href = `${projekt.link}`); //gør kortene klikbart og kalder på showPopUp() funktionen med city som parameter
+            mainContent.appendChild(clone);
+          }
+        });
 
 	</script>
 
