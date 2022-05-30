@@ -46,7 +46,7 @@ while ( have_posts() ) :
             <button class="filter-btn selected" data-category="alle">Alle</button>
             <button class="filter-btn" data-category="simpel">Simpel</button>
             <button class="filter-btn" data-category="farverig">Farverig</button>
-            <button class="filter-btn" data-category="formelt">Formel</button>
+            <button class="filter-btn" data-category="formel">Formel</button>
             <button class="filter-btn" data-category="kreativ">Kreativ</button>
             </div>
         </div>
@@ -94,7 +94,7 @@ while ( have_posts() ) :
         mainContent.textContent = ""; //fjerner sektionens indhold
 
         skabeloner.forEach((skabelon) => {
-          if (filter == "alle" || skabelon.simpel == "n/a" || filter == skabelon.farverig || filter == skabelon.formel || filter == skabelon.kreativ) {
+          if (filter == "alle" || filter == skabelon.simpel || filter == skabelon.farverig || filter == skabelon.formel || filter == skabelon.kreativ) {
             //hvis objektet har samme værdi som filterknappen
             const clone = template.cloneNode(true);
             clone.querySelector(".img").style.backgroundImage = `url(${skabelon.billede.guid})`;
