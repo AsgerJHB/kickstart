@@ -85,8 +85,12 @@ h1.entry-title {
 
 /* ------------------------------------- forside ---------------------------------------- */
 
-#forside_section4h {
+/* #forside_section4h {
   background-color: #ecede9 !important;
+} */
+#forside_section4h {
+  background-image: url(/kickstartdinkarriere/wordpress/wp-content/themes/kickstart-theme/billeder/bølge_bottom.png);
+  object-fit: cover;
 }
 /* --------- fonte + farve på forsiden ----------*/
 /* H1 splashvideo */
