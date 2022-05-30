@@ -68,6 +68,7 @@ get_header();
                 <h3 class="overskrift"></h3>
                 <p class="kort_beskrivelse"></p>
                 <p class="pris"></p>
+                <p class="kategori"></p>
             </article>
         </template>
 
@@ -140,6 +141,7 @@ get_header();
             clone.querySelector(".overskrift").textContent = `${skabelon.title.rendered}`;
             clone.querySelector(".kort_beskrivelse").textContent = `${skabelon.kort_beskrivelse}`;
             clone.querySelector(".pris").textContent = `${skabelon.pris}`;
+            clone.querySelector(".kategori").textContent = `${skabelon.kategori}`;
             clone.querySelector("article").addEventListener("click", () => location.href = `${skabelon.link}`); //gør det klikbart og kalder på showPopUp() funktionen som parameter
             mainContent.appendChild(clone);
           }
