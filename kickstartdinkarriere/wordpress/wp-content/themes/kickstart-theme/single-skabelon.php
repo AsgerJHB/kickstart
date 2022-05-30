@@ -83,11 +83,11 @@ get_header(); ?>
             <img class="billede" src="" alt="">
           </div>
           <article class="article_gap">
-              <h3 class="pris_text">Pris for CV-Skabelon</h3>
+              <h4 class="pris_text">Pris for CV-Skabelon</h4>
               <p class="pris"></p>
             </article>
             <article class="article_gap">
-              <h3 class="køb">Køb CV-Skabelon Her!</h3>
+              <h4 class="køb">Køb CV-Skabelon Her!</h4>
               <button>Køb Her!</button>
             </article>
       	</section>
