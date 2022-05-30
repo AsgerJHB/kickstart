@@ -25,7 +25,7 @@ while ( have_posts() ) :
 
         <template>
             <article class="skabelon_indhold">
-                <div class="img"></div>
+                <div class="billede"></div>
                 <h3 class="overskrift"></h3>
                 <p class="kort_beskrivelse"></p>
                 <p class="pris"></p>
@@ -66,7 +66,6 @@ while ( have_posts() ) :
         const filterButtons = document.querySelectorAll(".filter-btn");
         filterButtons.forEach((button) => {
           button.addEventListener("click", filterKategori); //knapperne kalder på filterKategori() funktionen, når man klikker
-          // button.style.opacity = 1;
         }); 
         fetchData(); //kalder på fetchData() funktionen
       });
@@ -101,7 +100,7 @@ while ( have_posts() ) :
             clone.querySelector(".img").style.backgroundImage = `url(${skabelon.billede.guid})`;
             clone.querySelector(".overskrift").textContent = `${skabelon.title.rendered}`;
             clone.querySelector(".kort_beskrivelse").textContent = `${skabelon.kortbeskrivelse}`;
-            clone.querySelector(".pris").textContent = `Pris: ${skabelon.pris}`;
+            clone.querySelector(".pris").textContent = `${skabelon.pris}`;
             clone.querySelector("article").addEventListener("click", () => location.href = `${skabelon.link}`); //gør det klikbart og kalder på showPopUp() funktionen som parameter
             mainContent.appendChild(clone);
           }
