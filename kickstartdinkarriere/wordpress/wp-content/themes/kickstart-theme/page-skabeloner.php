@@ -17,7 +17,21 @@ get_header();
 ?>
 
 <div class="page-content">
-		<style></style>
+		<style>
+      #content_skabeloner {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(375px, 1fr));
+        gap: 36px 24px;
+      }
+
+      @media (max-width: 840px) {
+        #content_skabeloner {
+          grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        }
+      }
+
+
+    </style>
 
         <template>
             <article class="skabelon_indhold">
