@@ -104,9 +104,9 @@ get_header(); ?>
 			  }
 			
 			  function display() {
-				document.querySelector(".overskrift").textContent = `${projekt.title.rendered}`;
-				document.querySelector(".langbeskrivelse").innerHTML = `${projekt.langbeskrivelse}`;
-          		document.querySelector(".billede").src = `${projekt.billede.guid}`;
+				document.querySelector(".overskrift").textContent = `${skabelon.title.rendered}`;
+				document.querySelector(".langbeskrivelse").innerHTML = `${skablon.langbeskrivelse}`;
+          		document.querySelector(".billede").src = `${skabelon.billede.guid}`;
 				document.querySelector(".pris").textContent = `${skabelon.pris}`; 
 			  }
 
