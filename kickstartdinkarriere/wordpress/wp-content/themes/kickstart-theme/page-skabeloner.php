@@ -93,7 +93,7 @@ get_header();
           if (filter == "alle" || filter == skabelon.simpel || filter == skabelon.farverig || filter == skabelon.formel || filter == skabelon.kreativ) {
             //hvis objektet har samme værdi som filterknappen
             const clone = template.cloneNode(true);
-            clone.querySelector(".billede").src=`${skabelon.billede.guid.rendered}`;
+            clone.querySelector(".billede").src=`${skabelon.billede.guid}`;
             clone.querySelector(".overskrift").textContent = `${skabelon.title.rendered}`;
             clone.querySelector(".kort_beskrivelse").textContent = `${skabelon.kortbeskrivelse}`;
             clone.querySelector(".pris").textContent = `${skabelon.pris}`;
