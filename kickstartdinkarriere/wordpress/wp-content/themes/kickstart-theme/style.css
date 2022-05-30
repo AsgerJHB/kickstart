@@ -99,4 +99,5 @@ Element,
 #splash_h1 h1.elementor-heading-title {
   font-family: quincy-cf, bold !important;
   justify-content: start;
+  color: #242323 !important;
 }
