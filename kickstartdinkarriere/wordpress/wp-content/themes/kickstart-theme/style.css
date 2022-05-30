@@ -290,6 +290,56 @@ h1.entry-title {
   margin-left: 20px !important;
 }
 
+/* E-bøger og kurser */
+.elementor-1404
+  .elementor-element.elementor-element-6b6136a:not(.elementor-motion-effects-element-type-background)
+  > .elementor-widget-wrap,
+.elementor-1404
+  .elementor-element.elementor-element-6b6136a
+  > .elementor-widget-wrap
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  box-shadow: 6px 10px 13px -4px rgba(80, 80, 80, 0.67) !important;
+  margin-right: 20px !important;
+  margin-left: 20px !important;
+}
+.elementor-1404
+  .elementor-element.elementor-element-452d585:not(.elementor-motion-effects-element-type-background)
+  > .elementor-widget-wrap,
+.elementor-1404
+  .elementor-element.elementor-element-452d585
+  > .elementor-widget-wrap
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  box-shadow: 6px 10px 13px -4px rgba(80, 80, 80, 0.67) !important;
+  margin-right: 20px !important;
+  margin-left: 20px !important;
+}
+.elementor-1404
+  .elementor-element.elementor-element-0d12a56:not(.elementor-motion-effects-element-type-background)
+  > .elementor-widget-wrap,
+.elementor-1404
+  .elementor-element.elementor-element-0d12a56
+  > .elementor-widget-wrap
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  box-shadow: 6px 10px 13px -4px rgba(80, 80, 80, 0.67) !important;
+  margin-right: 20px !important;
+  margin-left: 20px !important;
+}
+.elementor-1404
+  .elementor-element.elementor-element-f7e6acd:not(.elementor-motion-effects-element-type-background)
+  > .elementor-widget-wrap,
+.elementor-1404
+  .elementor-element.elementor-element-f7e6acd
+  > .elementor-widget-wrap
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  box-shadow: 6px 10px 13px -4px rgba(80, 80, 80, 0.67) !important;
+  margin-right: 20px !important;
+  margin-left: 20px !important;
+}
+
 /* ------------------------------------- forside ---------------------------------------- */
 
 #forside_section4h {
