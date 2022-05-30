@@ -74,7 +74,7 @@ while ( have_posts() ) :
       async function fetchData() {
         //kaldes når siden er loadet
         let response = await fetch(url);
-        Skabeloner = await response.json();
+        skabeloner = await response.json();
         display(skabeloner); //kalder på display() funktionen med skabeloner som parameter
         //console.log(skabeloner);
       }
