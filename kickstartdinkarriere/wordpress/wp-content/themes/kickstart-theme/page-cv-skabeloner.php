@@ -58,7 +58,7 @@ while ( have_posts() ) :
     <script>
       const url = "http://asgerjhb.dk/kea/02_SEM/kickstartdinkarriere/wordpress/wp-json/wp/v2/cv-skabelon?per_page=100"; //wp-json
 
-      let skabelon; //json databasen
+      let skabeloner; //json databasen
       let filter = "alle"; //variabel som ændrer sig alt efter hvilken filterknap du klikker på
 
       document.addEventListener("DOMContentLoaded", () => {
