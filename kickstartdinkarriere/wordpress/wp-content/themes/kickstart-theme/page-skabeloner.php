@@ -18,6 +18,11 @@ get_header();
 
 <div class="page-content">
 		<style>
+       * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
       #content_skabeloner {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(375px, 1fr));
@@ -30,8 +35,6 @@ get_header();
         }
       }
 
-
-
       .skabelon_indhold {
         display: grid;
         grid-template-rows: 4fr 5fr;
@@ -40,7 +43,6 @@ get_header();
         cursor: pointer;
         transition: 0.3s box-shadow, 0.5s transform;
         overflow: hidden;
-        color: white !important;
       }
 
       .kortbeskrivelse {
