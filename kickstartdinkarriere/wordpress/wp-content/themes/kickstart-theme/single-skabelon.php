@@ -77,7 +77,7 @@ get_header(); ?>
         <h2 class="overskrift"></h2>
         <section id="single_post">
           <div class="col_left">
-            <p class="langbeskrivelse"></p>
+            <p class="lang_beskrivelse"></p>
           </div>
           <div class="col_right">
             <img class="billede" src="" alt="">
@@ -105,7 +105,7 @@ get_header(); ?>
 			
 			  function display() {
 				document.querySelector(".overskrift").textContent = `${skabelon.title.rendered}`;
-				document.querySelector(".langbeskrivelse").textContent = `${skabelon.langbeskrivelse}`;
+				document.querySelector(".lang_beskrivelse").textContent = `${skabelon.langbeskrivelse}`;
           		document.querySelector(".billede").src = `${skabelon.billede.guid}`;
 				document.querySelector(".pris").textContent = `${skabelon.pris}`; 
 			  }
