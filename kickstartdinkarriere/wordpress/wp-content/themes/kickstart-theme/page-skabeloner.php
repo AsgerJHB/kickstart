@@ -30,6 +30,19 @@ get_header();
         }
       }
 
+      .kortbeskrivelse {
+        position: relative;
+      }
+
+      .kortbeskrivelse::after {
+        content: "Læs mere";
+        text-decoration: underline;
+        /*padding-left: 0.25rem;*/
+        position: absolute;
+        left: 0;
+        bottom: -1.5rem;
+      }
+
 
     </style>
 
