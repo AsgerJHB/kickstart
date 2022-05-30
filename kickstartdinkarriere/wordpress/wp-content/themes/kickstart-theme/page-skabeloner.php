@@ -25,7 +25,7 @@ while ( have_posts() ) :
 
         <template>
             <article class="skabelon_indhold">
-                <div class="billede"></div>
+              <img src="" alt="" class="billede">
                 <h3 class="overskrift"></h3>
                 <p class="kort_beskrivelse"></p>
                 <p class="pris"></p>
