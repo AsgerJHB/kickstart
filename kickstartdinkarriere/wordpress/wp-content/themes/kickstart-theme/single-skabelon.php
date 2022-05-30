@@ -117,4 +117,4 @@ get_header(); ?>
       </script>
     </div>
 
-get_footer(); ?>
+	<?php get_footer(); ?>
