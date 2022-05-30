@@ -30,6 +30,19 @@ get_header();
         }
       }
 
+
+
+      .skabelon_indhold {
+        display: grid;
+        grid-template-rows: 4fr 5fr;
+        aspect-ratio: 2/3;
+        box-shadow: #80808040 2px 4px 8px 0px;
+        cursor: pointer;
+        transition: 0.3s box-shadow, 0.5s transform;
+        overflow: hidden;
+        color: white !important;
+      }
+
       .kortbeskrivelse {
         position: relative;
       }
@@ -37,7 +50,7 @@ get_header();
       .kortbeskrivelse::after {
         content: "Læs mere";
         text-decoration: underline;
-        /*padding-left: 0.25rem;*/
+        padding-left: 0.25rem;
         position: absolute;
         left: 0;
         bottom: -1.5rem;
