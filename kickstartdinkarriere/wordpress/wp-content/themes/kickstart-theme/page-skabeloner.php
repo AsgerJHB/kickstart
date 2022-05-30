@@ -96,7 +96,7 @@ get_header();
         </main>
 
     <script>
-      const url = "http://asgerjhb.dk/kea/02_SEM/kickstartdinkarriere/wordpress/wp-json/wp/v2/skabelon?per_page=100"; //wp-json
+      const url = "http://asgerjhb.dk/kea/02_SEM/kickstartdinkarriere/wordpress/wp-json/wp/v2/skabelon"; //wp-json
 
       let skabeloner; //json databasen
       let filter = "alle"; //variabel som ændrer sig alt efter hvilken filterknap du klikker på
