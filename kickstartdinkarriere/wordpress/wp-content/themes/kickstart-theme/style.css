@@ -58,11 +58,27 @@ a {
   margin: 40px;
 }
 
-/* border-radius på formular kanpper --- virker ikke!! */
+/* border-radius på formular kanpper */
 .forminator-ui#forminator-module-955.forminator-design--flat
-  .forminator-button-submit {
+  .forminator-button-submit,
+#forminator-module-1817
+  > div:nth-child(5)
+  > div:nth-child(1)
+  > div:nth-child(1)
+  > button:nth-child(1),
+#forminator-module-1817
+  > div:nth-child(5)
+  > div:nth-child(1)
+  > div:nth-child(1)
+  > button:nth-child(1),
+#forminator-module-1216
+  > div:nth-child(5)
+  > div:nth-child(1)
+  > div:nth-child(1)
+  > button:nth-child(1) {
   border-radius: 25px;
 }
+
 /* ------------------------------------- forside ---------------------------------------- */
 /* indsat baggrundsbølge i cv section */
 #forside_section3 {
