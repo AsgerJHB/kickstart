@@ -1,9 +1,6 @@
 <?php
 /**
- * The site's entry point.
- *
- * Loads the relevant template part,
- * the loop is executed (when needed) by the relevant template part.
+ * The template for displaying singular post-types: posts, pages and user-defined custom post types.
  *
  * @package HelloElementor
  */
@@ -11,12 +8,19 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
-
-get_header();
-
 ?>
+<?php
+while ( have_posts() ) :
+	the_post();
+	?>
 
-<div class="page-content">
+<main id="content" <?php post_class( 'site-main' ); ?> role="main">
+	<?php if ( apply_filters( 'hello_elementor_page_title', true ) ) : ?>
+		<header class="page-header">
+			<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+		</header>
+	<?php endif; ?>
+	<div class="page-content">
 		<style></style>
 
         <template>
@@ -105,6 +109,7 @@ get_header();
 
     </script>
     </div>
+</main>
 
-
-<?php get_footer();
+	<?php
+endwhile;
