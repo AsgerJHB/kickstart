@@ -1,0 +1,98 @@
+/*
+Theme Name: kickstart-theme
+Template: hello-elementor
+Author: Gruppe 3
+Description: Child theme of the Hello Elementor theme
+Version: 2.5.0.1653644518
+Updated: 2022-05-27 09:41:58
+
+*/
+@import url("https://use.typekit.net/nvc1apx.css");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  display: grid;
+  font-weight: 900;
+  font-family: quincy-cf, serif !important;
+  justify-content: center;
+}
+
+p,
+ul,
+li {
+  font-family: montserrat, sans-serif !important;
+  font-weight: 400;
+}
+a {
+  font-family: montserrat, sans-serif !important;
+  text-decoration: none !important;
+}
+
+.elementor-column-gap-narrow {
+  --widgets-spacing: 70px;
+  margin: 40px;
+}
+
+/* h1 på andre sider */
+.elementor-kit-6 h1 {
+  display: grid;
+  justify-content: center !important;
+}
+
+h1.entry-title {
+  display: grid;
+  justify-content: center !important;
+  margin-top: 20px;
+}
+
+/* H1 på forside */
+
+.elementor-28
+  .elementor-element.elementor-element-fb6074b
+  .elementor-heading-title {
+  display: grid;
+  justify-content: left !important;
+}
+
+/* box shadow og mellemrum på forløb */
+.elementor-22
+  .elementor-element.elementor-element-0f19fd9:not(.elementor-motion-effects-element-type-background)
+  > .elementor-widget-wrap,
+.elementor-22
+  .elementor-element.elementor-element-0f19fd9
+  > .elementor-widget-wrap
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  box-shadow: 6px 10px 13px -4px rgba(80, 80, 80, 0.67) !important;
+}
+
+/* farve på menu */
+.site-header .site-navigation ul.menu li a {
+  color: white;
+}
+
+.site-navigation ul.menu li ul li {
+  background-color: #7e9178;
+}
+
+/* box shadow og margin på enkeltydelser */
+
+/* E-bøger og kurser */
+
+/* ------------------------------------- forside ---------------------------------------- */
+
+#forside_section4h {
+  background-color: #ecede9 !important;
+}
+/* --------- fonte + farve på forsiden ----------*/
+/* H1 splashvideo */
+h1.elementor-heading-title {
+  font-family: quincy-cf, black !important;
+  color: #242323 !important;
+}
+
+/* ------------------------------------- om kickstart ---------------------------------- */
