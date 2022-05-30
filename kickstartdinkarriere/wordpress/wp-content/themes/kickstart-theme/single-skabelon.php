@@ -105,7 +105,7 @@ get_header(); ?>
 			
 			  function display() {
 				document.querySelector(".overskrift").textContent = `${skabelon.title.rendered}`;
-				document.querySelector(".langbeskrivelse").innerHTML = `${skablon.langbeskrivelse}`;
+				document.querySelector(".langbeskrivelse").textContent = `${skablon.langbeskrivelse}`;
           		document.querySelector(".billede").src = `${skabelon.billede.guid}`;
 				document.querySelector(".pris").textContent = `${skabelon.pris}`; 
 			  }
