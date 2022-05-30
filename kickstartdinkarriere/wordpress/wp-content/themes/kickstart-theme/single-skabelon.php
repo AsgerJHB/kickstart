@@ -98,7 +98,7 @@ get_header(); ?>
 			  document.addEventListener("DOMContentLoaded", fetchData);
 			
 			  async function fetchData() {
-				  let jsonData = await fetch(`http://asgerjhb.dk/kea/02_SEM/kickstartdinkarriere/wordpress/wp-json/wp/v2/skabelon?per_page=100/<?php echo get_the_ID() ?>`);
+				  let jsonData = await fetch(`http://asgerjhb.dk/kea/02_SEM/kickstartdinkarriere/wordpress/wp-json/wp/v2/skabelon/<?php echo get_the_ID() ?>`);
 				  skabelon = await jsonData.json();
 			  	display();
 			  }
