@@ -37,7 +37,7 @@ get_header();
             <article class="skabelon_indhold">
               <img src="" alt="" class="billede">
                 <h3 class="overskrift"></h3>
-                <p class="kort_beskrivelse"></p>
+                <p class="kortbeskrivelse"></p>
                 <p class="pris"></p>
             </article>
         </template>
@@ -109,7 +109,7 @@ get_header();
             const clone = template.cloneNode(true);
             clone.querySelector(".billede").src=`${skabelon.billede.guid}`;
             clone.querySelector(".overskrift").textContent = `${skabelon.title.rendered}`;
-            clone.querySelector(".kort_beskrivelse").textContent = `${skabelon.kortbeskrivelse}`;
+            clone.querySelector(".kortbeskrivelse").textContent = `${skabelon.kortbeskrivelse}`;
             clone.querySelector(".pris").textContent = `${skabelon.pris}`;
             clone.querySelector("article").addEventListener("click", () => location.href = `${skabelon.link}`); //gør det klikbart og kalder på showPopUp() funktionen som parameter
             mainContent.appendChild(clone);
