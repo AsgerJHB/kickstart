@@ -57,6 +57,12 @@ a {
   --widgets-spacing: 70px;
   margin: 40px;
 }
+
+/* border-radius på formular kanpper --- virker ikke!! */
+.forminator-ui#forminator-module-955.forminator-design--flat
+  .forminator-button-submit {
+  border-radius: 25px;
+}
 /* ------------------------------------- forside ---------------------------------------- */
 /* indsat baggrundsbølge i cv section */
 #forside_section3 {
