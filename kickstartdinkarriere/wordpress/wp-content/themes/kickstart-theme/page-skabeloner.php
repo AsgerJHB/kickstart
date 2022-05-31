@@ -168,7 +168,7 @@ get_header();
         mainContent.textContent = ""; //fjerner sektionens indhold
 
         skabeloner.forEach((skabelon) => {
-          console.log("skabelon", skabelon.kategori);
+          // console.log("skabelon", skabelon.kategori);
           if (filter == skabelon.kategori || filter ==  "alle") {
             //hvis objektet har samme værdi som filterknappen
             const clone = template.cloneNode(true);
