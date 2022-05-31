@@ -122,7 +122,7 @@ get_header();
     <script>
       const url = "http://asgerjhb.dk/kea/02_SEM/kickstartdinkarriere/wordpress/wp-json/wp/v2/skabelon?per_pages=100"; //wp-json
 
-      let skabeloner; //json databasen
+      let skabeloner = []; //json databasen
       let filter = "alle"; //variabel som ændrer sig alt efter hvilken filterknap du klikker på
 
       document.addEventListener("DOMContentLoaded", () => {
@@ -145,9 +145,9 @@ get_header();
       function filterKategori() {
         //bliver kaldt når knapperne klikkes på
         filter = this.dataset.category; //variablen ændres til den knap man klikker på
-        document.querySelector(".selected").classList.remove("selected");
-        this.classList.add("selected");
-
+        console.log("filter", filter);
+        // document.querySelector(".selected").classList.remove("selected");
+        // this.classList.add("selected");
         display(); //kalder på display() funktionen
       }
 
@@ -158,7 +158,8 @@ get_header();
         mainContent.textContent = ""; //fjerner sektionens indhold
 
         skabeloner.forEach((skabelon) => {
-          if (filter == "alle" || filter == skabelon.simpel || filter == skabelon.farverig || filter == skabelon.formel || filter == skabelon.kreativ) {
+          console.log("skabelon", skabelon.kategori);
+          if (filter == skabelon.kategori || filter ==  "alle") {
             //hvis objektet har samme værdi som filterknappen
             const clone = template.cloneNode(true);
             clone.querySelector(".billede").src=`${skabelon.billede.guid}`;
