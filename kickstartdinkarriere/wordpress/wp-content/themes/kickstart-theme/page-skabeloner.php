@@ -147,8 +147,11 @@ function start() {
 }
 // eventlistener knyttet til knapperne der vælger hvad for et filter der er aktivt
 function filtrerSkabeloner() {
+  //bliver kaldt når knapperne klikkes på
   filter = this.dataset.kategori;
   console.log("filter", filter);
+  document.querySelector(".selected").classList.remove("selected");
+  this.classList.add("selected");
   visSkabeloner();
   header.textContent = this.textContent;
 }
@@ -161,8 +164,8 @@ async function hentData() {
 // Funktion der viser retter i listeview
 function visSkabeloner() {
   const mainContent = document.getElementById("content_skabeloner");
-        const template = document.querySelector("template").content;
-        mainContent.textContent = ""; //fjerner sektionens indhold
+  const template = document.querySelector("template").content;
+  mainContent.textContent = ""; //fjerner sektionens indhold
 
   // ind til loop view + lyt efter om der er blevet klikket
   skabeloner.forEach((skabelon) => {
