@@ -138,7 +138,7 @@ get_header();
       document.addEventListener("DOMContentLoaded", () => {
         //venter indtil siden er loadet før knapperne bliver funktionelle
         const filterKnapper = document.querySelectorAll(".filter-btn");
-        filterKnapper.forEach((button) => {
+        filterKnapper.forEach((knap) => {
         knap.addEventListener("click", filterKategori); //knapperne kalder på filterKategori() funktionen, når man klikker
         }); 
         fetchData(); //kalder på fetchData() funktionen
@@ -176,7 +176,7 @@ get_header();
             clone.querySelector(".overskrift").textContent = `${skabelon.title.rendered}`;
             clone.querySelector(".kort_beskrivelse").textContent = `${skabelon.kort_beskrivelse}`;
             clone.querySelector(".pris").textContent = `${skabelon.pris}`;
-            clone.querySelector(".kategori").textContent = `${skabelon.kategori}`;
+            clone.querySelector(".kategori").textContent = `${skabelon.categories}`;
             clone.querySelector("article").addEventListener("click", () => location.href = `${skabelon.link}`); //gør det klikbart og kalder på showPopUp() funktionen som parameter
             mainContent.appendChild(clone);
           }
