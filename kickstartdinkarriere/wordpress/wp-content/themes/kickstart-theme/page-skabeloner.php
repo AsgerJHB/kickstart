@@ -43,16 +43,15 @@ get_header();
         color: white !important;
       }
 
-         .filter-btn.selected{
+         .filter-btn.selected {
         border: solid 1px #E6C375 !important;
         background-color: #E6C375!important;
         color: white !important;
       }
 
-      .filter{
-        display:grid;
-        text-align: center;
-    
+      .filter {
+        display: flex;
+        justify-content: center;
       }
 
       @media (max-width: 840px) {
