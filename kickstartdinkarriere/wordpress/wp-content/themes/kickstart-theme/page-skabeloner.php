@@ -153,7 +153,6 @@ function filtrerSkabeloner() {
   document.querySelector(".selected").classList.remove("selected");
   this.classList.add("selected");
   visSkabeloner();
-  header.textContent = this.textContent;
 }
 
 async function hentData() {
@@ -169,7 +168,7 @@ function visSkabeloner() {
 
   // ind til loop view + lyt efter om der er blevet klikket
   skabeloner.forEach((skabelon) => {
-    console.log("kategori", skabelon.kategori);
+    // console.log("kategori", skabelon.kategori);
     if (filter == skabelon.kategori || filter == "alle") {
       //hvis objektet har samme værdi som filterknappen
       const clone = template.cloneNode(true);
