@@ -77,6 +77,7 @@ a {
   > div:nth-child(1)
   > button:nth-child(1) {
   border-radius: 25px;
+  justify-content: center;
 }
 
 /* ------------------------------------- forside ---------------------------------------- */
@@ -84,7 +85,7 @@ a {
 #forside_section3 {
   background-image: url(http://asgerjhb.dk/kea/02_SEM/kickstartdinkarriere/wordpress/wp-content/uploads/2022/05/bolge_bottom.png);
   object-fit: cover !important;
-  background-position-y: -348px;
+  background-position-y: -400px;
 }
 
 #forside_section4h {

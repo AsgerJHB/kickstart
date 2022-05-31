@@ -30,6 +30,31 @@ get_header();
         padding: 40px;
       }
 
+      /* ----- filter knapper ---- */
+        .filter-btn {
+        border: solid 1px #f0c259 !important;
+        background-color: white !important;
+        color: #f0c259 !important;
+      }
+
+      .filter-btn:hover {
+        border: solid 1px #f0c259 !important;
+        background-color: #f0c259 !important;
+        color: white !important;
+      }
+
+         .filter-btn.selected{
+        border: solid 1px #f0c259 !important;
+        background-color: #f0c259 !important;
+        color: white !important;
+      }
+
+      .filter{
+        display:grid;
+        text-align: center;
+    
+      }
+
       @media (max-width: 840px) {
         #content_skabeloner {
           grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
