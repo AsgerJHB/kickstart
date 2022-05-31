@@ -23,6 +23,13 @@ get_header();
         padding: 0;
         box-sizing: border-box;
       }
+
+      #main_content {
+          padding-inline: 8px;
+          max-width: 1200px;
+          margin-inline: auto;
+        }
+        
       #content_skabeloner {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(375px, 1fr));
@@ -54,6 +61,7 @@ get_header();
         align-items:center;
         justify-content: space-between;
         flex-direction: row;
+        margin: 2em;
       }
 
       @media (max-width: 840px) {
