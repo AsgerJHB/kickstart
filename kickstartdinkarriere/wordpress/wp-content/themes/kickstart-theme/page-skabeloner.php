@@ -154,8 +154,8 @@ function filtrerSkabeloner() {
 }
 
 async function hentData() {
-  const resspons = await fetch(url, options);
-  retter = await resspons.json();
+  let response = await fetch(url);
+  skabeloner = await response.json();
   visSkabeloner();
 }
 // Funktion der viser retter i listeview
