@@ -133,13 +133,13 @@ get_header();
       const url = "http://asgerjhb.dk/kea/02_SEM/kickstartdinkarriere/wordpress/wp-json/wp/v2/skabelon?per_pages=100"; //wp-json
 
       let skabeloner = []; //json databasen
-      let filtrer = "alle"; //variabel som ændrer sig alt efter hvilken filterknap du klikker på
+      let filter = "alle"; //variabel som ændrer sig alt efter hvilken filterknap du klikker på
 
       document.addEventListener("DOMContentLoaded", () => {
         //venter indtil siden er loadet før knapperne bliver funktionelle
-        const filtrerKnapper = document.querySelectorAll(".filter-btn");
-        filtrerKnapper.forEach((button) => {
-        knap.addEventListener("click", filtrerKategori); //knapperne kalder på filterKategori() funktionen, når man klikker
+        const filterKnapper = document.querySelectorAll(".filter-btn");
+        filterKnapper.forEach((button) => {
+        knap.addEventListener("click", filterKategori); //knapperne kalder på filterKategori() funktionen, når man klikker
         }); 
         fetchData(); //kalder på fetchData() funktionen
       });
@@ -152,10 +152,10 @@ get_header();
         console.log(skabeloner);
       }
 
-      function filtrerKategori() {
+      function filterKategori() {
         //bliver kaldt når knapperne klikkes på
-        filtrer = this.dataset.category; //variablen ændres til den knap man klikker på
-        console.log("filtrer", filtrer);
+        filter = this.dataset.category; //variablen ændres til den knap man klikker på
+        console.log("filter", filter);
         // document.querySelector(".selected").classList.remove("selected");
         // this.classList.add("selected");
         display(); //kalder på display() funktionen
@@ -169,7 +169,7 @@ get_header();
 
         skabeloner.forEach((skabelon) => {
           console.log("skabelon", skabelon.kategori);
-          if (filtrer == skabelon.kategori || filtrer ==  "alle") {
+          if (filter == skabelon.kategori || filter ==  "alle") {
             //hvis objektet har samme værdi som filterknappen
             const clone = template.cloneNode(true);
             clone.querySelector(".billede").src=`${skabelon.billede.guid}`;
