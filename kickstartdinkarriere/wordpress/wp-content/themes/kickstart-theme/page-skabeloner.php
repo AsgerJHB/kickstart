@@ -160,9 +160,9 @@ async function hentData() {
 }
 // Funktion der viser retter i listeview
 function visSkabeloner() {
-  const section = document.querySelector("content_skabeloner");
-  const template = document.querySelector("template").content;
-  mainContent.textContent = ""; //fjerner sektionens indhold
+  const mainContent = document.getElementById("content_skabeloner");
+        const template = document.querySelector("template").content;
+        mainContent.textContent = ""; //fjerner sektionens indhold
 
   // ind til loop view + lyt efter om der er blevet klikket
   skabeloner.forEach((skabelon) => {
