@@ -132,46 +132,46 @@ get_header();
     <script>
       const url = "http://asgerjhb.dk/kea/02_SEM/kickstartdinkarriere/wordpress/wp-json/wp/v2/skabelon?per_pages=100"; //wp-json
 
-      // se om DOM er loaded
-document.addEventListener("DOMContentLoaded", start);
-let skabeloner = [];
-let filter = "alle";
+      let skabeloner; //json databasen
+      let filter = "alle"; //variabel som ændrer sig alt efter hvilken filterknap du klikker på
 
-// første funktion der kaldes efter DOM er loaded
-function start() {
-  const filterKnapper = document.querySelectorAll(".filter-btn");
-  filterKnapper.forEach((knap) =>
-    knap.addEventListener("click", filtrerSkabeloner)
-  );
-  hentData();
-}
-// eventlistener knyttet til knapperne der vælger hvad for et filter der er aktivt
-function filtrerSkabeloner() {
-  //bliver kaldt når knapperne klikkes på
-  filter = this.dataset.kategori;
-  console.log("filter", filter);
-  document.querySelector(".selected").classList.remove("selected");
-  this.classList.add("selected");
-  visSkabeloner();
-}
+      document.addEventListener("DOMContentLoaded", () => {
+        //venter indtil siden er loadet før knapperne bliver funktionelle
+        const filterKnapper = document.querySelectorAll(".filter-btn");
+        filterKnapper.forEach((button) => {
+        knap.addEventListener("click", filterKategori); //knapperne kalder på filterKategori() funktionen, når man klikker
+        }); 
+        fetchData(); //kalder på fetchData() funktionen
+      });
 
-async function hentData() {
-  let response = await fetch(url);
-  skabeloner = await response.json();
-  visSkabeloner();
-}
-// Funktion der viser retter i listeview
-function visSkabeloner() {
-  const mainContent = document.getElementById("content_skabeloner");
-  const template = document.querySelector("template").content;
-  mainContent.textContent = ""; //fjerner sektionens indhold
+      async function fetchData() {
+        //kaldes når siden er loadet
+        let response = await fetch(url);
+        skabeloner = await response.json();
+        display(skabeloner); //kalder på display() funktionen med skabeloner som parameter
+        console.log(skabeloner);
+      }
 
-  // ind til loop view + lyt efter om der er blevet klikket
-  skabeloner.forEach((skabelon) => {
-    // console.log("kategori", skabelon.kategori);
-    if (filter == skabelon.kategori || filter == "alle") {
-      //hvis objektet har samme værdi som filterknappen
-      const clone = template.cloneNode(true);
+      function filterKategori() {
+        //bliver kaldt når knapperne klikkes på
+        filter = this.dataset.category; //variablen ændres til den knap man klikker på
+        console.log("filter", filter);
+        // document.querySelector(".selected").classList.remove("selected");
+        // this.classList.add("selected");
+        display(); //kalder på display() funktionen
+      }
+
+      function display() {
+        //kaldes når databasen er hentet eller når en filterknap klikkes
+        const mainContent = document.getElementById("content_skabeloner");
+        const template = document.querySelector("template").content;
+        mainContent.textContent = ""; //fjerner sektionens indhold
+
+        skabeloner.forEach((skabelon) => {
+          // console.log("skabelon", skabelon.kategori);
+          if (filter == skabelon.kategori || filter ==  "alle") {
+            //hvis objektet har samme værdi som filterknappen
+            const clone = template.cloneNode(true);
             clone.querySelector(".billede").src=`${skabelon.billede.guid}`;
             clone.querySelector(".overskrift").textContent = `${skabelon.title.rendered}`;
             clone.querySelector(".kort_beskrivelse").textContent = `${skabelon.kort_beskrivelse}`;
@@ -179,9 +179,10 @@ function visSkabeloner() {
             clone.querySelector(".kategori").textContent = `${skabelon.kategori}`;
             clone.querySelector("article").addEventListener("click", () => location.href = `${skabelon.link}`); //gør det klikbart og kalder på showPopUp() funktionen som parameter
             mainContent.appendChild(clone);
-    }
-  });
-}
+          }
+        });
+      }
+
     </script>
     </div>
 
