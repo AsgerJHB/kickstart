@@ -156,8 +156,8 @@ get_header();
         //bliver kaldt når knapperne klikkes på
         filter = this.dataset.category; //variablen ændres til den knap man klikker på
         console.log("filter", filter);
-        // document.querySelector(".selected").classList.remove("selected");
-        // this.classList.add("selected");
+        document.querySelector(".selected").classList.remove("selected");
+        this.classList.add("selected");
         display(); //kalder på display() funktionen
       }
 
