@@ -32,9 +32,9 @@ get_header();
 
       /* ----- filter knapper ---- */
         .filter-btn {
-        border: solid 1px #f0c259 !important;
+        border: solid 1px #E6C375 !important;
         background-color: white !important;
-        color: #f0c259 !important;
+        color: #E6C375 !important;
       }
 
       .filter-btn:hover {
@@ -44,8 +44,8 @@ get_header();
       }
 
          .filter-btn.selected{
-        border: solid 1px #f0c259 !important;
-        background-color: #f0c259 !important;
+        border: solid 1px #E6C375 !important;
+        background-color: #E6C375!important;
         color: white !important;
       }
 

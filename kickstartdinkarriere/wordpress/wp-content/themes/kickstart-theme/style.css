@@ -83,9 +83,9 @@ a {
 /* ------------------------------------- forside ---------------------------------------- */
 /* indsat baggrundsbølge i cv section */
 #forside_section3 {
-  background-image: url(http://asgerjhb.dk/kea/02_SEM/kickstartdinkarriere/wordpress/wp-content/uploads/2022/05/bolge_bottom.png);
+  background-image: url(http://asgerjhb.dk/kea/02_SEM/kickstartdinkarriere/wordpress/wp-content/uploads/2022/05/bolge1_bottom_hojre.webp);
   object-fit: cover !important;
-  background-position-y: -400px;
+  background-position-y: -450px;
 }
 
 #forside_section4h {
@@ -123,4 +123,46 @@ Element,
   font-family: quincy-cf, bold !important;
   justify-content: start;
   color: #242323 !important;
+}
+
+/* ----- e-bøger og kurser -- singleview - baggrund */
+#primary {
+  background-image: url(http://asgerjhb.dk/kea/02_SEM/kickstartdinkarriere/wordpress/wp-content/uploads/2022/05/bolge2_top.webp);
+  background-position-y: -100px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.single_add_to_cart_button {
+  border: solid 1px #e6c375 !important;
+  border-radius: 25px !important;
+  background-color: #e6c375 !important;
+  color: white !important;
+  margin-left: 20px !important;
+}
+
+.single_add_to_cart_button:hover {
+  border: solid 1px #f0c259 !important;
+  background-color: #f0c259 !important;
+  color: white !important;
+  transform: scale(1) !important;
+}
+
+.woocommerce-message {
+  border-top-color: #e6c375;
+}
+
+.checkout-button {
+  border: solid 1px #e6c375 !important;
+  border-radius: 30px !important;
+  background-color: #e6c375 !important;
+  color: white !important;
+  margin-left: 20px !important;
+}
+
+.checkout-button:hover {
+  border: solid 1px #f0c259 !important;
+  background-color: #f0c259 !important;
+  color: white !important;
+  transform: scale(1) !important;
 }
