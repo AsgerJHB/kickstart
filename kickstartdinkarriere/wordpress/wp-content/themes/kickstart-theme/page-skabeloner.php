@@ -49,7 +49,7 @@ get_header();
         color: white !important;
       }
 
-      #filter_menu .filter {
+      #filter {
         display:flex;
         align-items:center;
         justify-content: space-between;
