@@ -162,7 +162,7 @@ async function hentData() {
 function visSkabeloner() {
   const section = document.querySelector("content_skabeloner");
   const template = document.querySelector("template").content;
-  section.textContent = "";
+  mainContent.textContent = ""; //fjerner sektionens indhold
 
   // ind til loop view + lyt efter om der er blevet klikket
   skabeloner.forEach((skabelon) => {
