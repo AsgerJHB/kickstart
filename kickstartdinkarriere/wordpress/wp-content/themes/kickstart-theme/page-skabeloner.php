@@ -166,7 +166,7 @@ function visSkabeloner() {
 
   // ind til loop view + lyt efter om der er blevet klikket
   skabeloner.forEach((skabelon) => {
-    console.log("kategori", ret.kategori);
+    console.log("kategori", skabelon.kategori);
     if (filter == skabelon.kategori || filter == "alle") {
       //hvis objektet har samme værdi som filterknappen
       const clone = template.cloneNode(true);
