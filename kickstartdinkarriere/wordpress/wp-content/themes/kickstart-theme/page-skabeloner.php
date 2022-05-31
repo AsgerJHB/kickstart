@@ -50,8 +50,10 @@ get_header();
       }
 
       .filter {
-        display: flex;
-        justify-content: center;
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
+        flex-direction: row;
       }
 
       @media (max-width: 840px) {
