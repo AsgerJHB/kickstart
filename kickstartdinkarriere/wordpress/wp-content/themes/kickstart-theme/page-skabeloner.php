@@ -93,7 +93,7 @@ get_header();
         bottom: -1.5rem;
       }
 
-      .billede {
+      .billede img {
         height: 100%;
         background-size: 105%;
         background-position: center;
