@@ -28,6 +28,7 @@ get_header();
           padding-inline: 8px;
           max-width: 1200px;
           margin-inline: auto;
+          background-color: #ECEDE9;
         }
 
       #content_skabeloner {
