@@ -62,7 +62,7 @@ get_header();
         justify-content: space-evenly;
         flex-direction: row;
         margin-top: 3em;
-        max-width: 1200px;
+        max-width: 700px;
         margin-inline: auto;
       }
 
@@ -97,6 +97,7 @@ get_header();
       .filterh1 {
         text-align: center;
         margin-top: 0;
+        padding-top: 3.5rem;
       }
 
       .filterp {
