@@ -43,7 +43,7 @@ get_header();
 
       #content_skabeloner {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(375px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
         gap: 36px 24px;
         padding: 40px;
         max-width: 1200px;
