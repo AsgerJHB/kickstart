@@ -61,6 +61,7 @@ get_header();
         align-items: center;
         justify-content: center;
         flex-direction: row;
+        gap: 12px;
         max-width: 500px;
         /* margin: 2em; */
       }
