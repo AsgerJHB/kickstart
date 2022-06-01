@@ -61,8 +61,7 @@ get_header();
         align-items: center;
         justify-content: space-evenly;
         flex-direction: row;
-        margin-top: 2em;
-        margin-bottom: 2em;
+        margin-top: 4em;
       }
 
       @media (max-width: 840px) {
@@ -91,6 +90,10 @@ get_header();
         position: absolute;
         left: 0;
         bottom: -1.5rem;
+      }
+
+      .intro p {
+        margin-top: 4em;
       }
 
 
