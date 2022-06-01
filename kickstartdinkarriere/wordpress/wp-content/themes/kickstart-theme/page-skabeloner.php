@@ -59,11 +59,10 @@ get_header();
       #filter {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-evenly;
         flex-direction: row;
-        gap: 12px;
-        max-width: 500px;
-        /* margin: 2em; */
+        margin-top: 2em;
+        margin-bottom: 2em;
       }
 
       @media (max-width: 840px) {
