@@ -57,11 +57,12 @@ get_header();
       }
 
       #filter {
-        display:flex;
-        align-items:center;
+        display: flex;
+        align-items: center;
         justify-content: space-between;
         flex-direction: row;
-        margin: 2em;
+        max-width: 800px;
+        /* margin: 2em; */
       }
 
       @media (max-width: 840px) {
@@ -77,7 +78,6 @@ get_header();
         box-shadow: #80808040 2px 4px 8px 0px;
         cursor: pointer;
         transition: 0.3s box-shadow, 0.5s transform;
-        overflow: hidden;
       }
 
       .kort_beskrivelse {
@@ -93,9 +93,6 @@ get_header();
         bottom: -1.5rem;
       }
 
-      img {
-        object-fit: cover;
-      }
 
     </style>
 
