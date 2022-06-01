@@ -116,7 +116,7 @@ get_header();
         <main id="main_content">
 
         <div class="intro">
-        <h3 class="filterh1">CV Skabeloner</h3>
+        <h1 class="filterh1">CV Skabeloner</h1>
         <p class="filterp">
         CV skabeloner tekst
         </p>
