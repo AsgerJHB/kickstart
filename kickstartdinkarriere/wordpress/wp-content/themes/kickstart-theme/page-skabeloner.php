@@ -132,14 +132,14 @@ get_header();
     <script>
       const url = "http://asgerjhb.dk/kea/02_SEM/kickstartdinkarriere/wordpress/wp-json/wp/v2/skabelon?per_pages=100"; //wp-json
 
-      let skabeloner = []; //json databasen
+      let skabeloner; //json databasen
       let filter = "alle"; //variabel som ændrer sig alt efter hvilken filterknap du klikker på
 
       document.addEventListener("DOMContentLoaded", () => {
         //venter indtil siden er loadet før knapperne bliver funktionelle
-        const filterButtons = document.querySelectorAll(".filter-btn");
-        filterButtons.forEach((button) => {
-          button.addEventListener("click", filterKategori); //knapperne kalder på filterKategori() funktionen, når man klikker
+        const filterKnapper = document.querySelectorAll(".filter-btn");
+        filterKnapper.forEach((knap) => {
+        knap.addEventListener("click", filterKategori); //knapperne kalder på filterKategori() funktionen, når man klikker
         }); 
         fetchData(); //kalder på fetchData() funktionen
       });
@@ -156,8 +156,8 @@ get_header();
         //bliver kaldt når knapperne klikkes på
         filter = this.dataset.category; //variablen ændres til den knap man klikker på
         console.log("filter", filter);
-        // document.querySelector(".selected").classList.remove("selected");
-        // this.classList.add("selected");
+        document.querySelector(".selected").classList.remove("selected");
+        this.classList.add("selected");
         display(); //kalder på display() funktionen
       }
 
@@ -168,7 +168,7 @@ get_header();
         mainContent.textContent = ""; //fjerner sektionens indhold
 
         skabeloner.forEach((skabelon) => {
-          console.log("skabelon", skabelon.kategori);
+          // console.log("skabelon", skabelon.kategori);
           if (filter == skabelon.kategori || filter ==  "alle") {
             //hvis objektet har samme værdi som filterknappen
             const clone = template.cloneNode(true);
@@ -176,7 +176,7 @@ get_header();
             clone.querySelector(".overskrift").textContent = `${skabelon.title.rendered}`;
             clone.querySelector(".kort_beskrivelse").textContent = `${skabelon.kort_beskrivelse}`;
             clone.querySelector(".pris").textContent = `${skabelon.pris}`;
-            clone.querySelector(".kategori").textContent = `${skabelon.kategori}`;
+            clone.querySelector(".kategori").textContent = `${skabelon.categories}`;
             clone.querySelector("article").addEventListener("click", () => location.href = `${skabelon.link}`); //gør det klikbart og kalder på showPopUp() funktionen som parameter
             mainContent.appendChild(clone);
           }
