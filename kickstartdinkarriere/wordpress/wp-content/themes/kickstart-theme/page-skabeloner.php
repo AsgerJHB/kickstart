@@ -124,7 +124,6 @@ get_header();
         </div>
 
         <div id="filter_menu">
-            <h3 class="filtrerh3">Filtrer CV-Skabelonerne</h3>
             <div id="filter">
             <button class="filter-btn selected" data-category="alle">Alle</button>
             <button class="filter-btn" data-category="simpel">Simpel</button>
