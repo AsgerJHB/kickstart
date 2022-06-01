@@ -59,9 +59,9 @@ get_header();
       #filter {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
         flex-direction: row;
-        max-width: 800px;
+        max-width: 500px;
         /* margin: 2em; */
       }
 
