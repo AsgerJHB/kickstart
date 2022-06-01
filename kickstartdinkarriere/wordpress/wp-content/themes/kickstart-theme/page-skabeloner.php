@@ -93,6 +93,7 @@ get_header();
       }
 
       .intro p {
+        display: flex;
         justify-content: center;
       }
 
