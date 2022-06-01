@@ -78,6 +78,7 @@ get_header();
         cursor: pointer;
         transition: 0.3s box-shadow, 0.5s transform;
         overflow: hidden;
+        max-height: 600px;
       }
 
       .kort_beskrivelse {
