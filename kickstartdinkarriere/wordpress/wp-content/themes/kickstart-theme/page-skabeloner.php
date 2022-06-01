@@ -29,7 +29,7 @@ get_header();
           max-width: 1200px;
           margin-inline: auto;
         }
-        
+
       #content_skabeloner {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(375px, 1fr));
@@ -77,7 +77,7 @@ get_header();
         box-shadow: #80808040 2px 4px 8px 0px;
         cursor: pointer;
         transition: 0.3s box-shadow, 0.5s transform;
-  
+        overflow: hidden;
       }
 
       .kort_beskrivelse {
