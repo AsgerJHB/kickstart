@@ -61,7 +61,7 @@ get_header();
         align-items: center;
         justify-content: space-evenly;
         flex-direction: row;
-        margin-top: 4em;
+        margin-top: 3em;
       }
 
       @media (max-width: 840px) {
@@ -92,9 +92,12 @@ get_header();
         bottom: -1.5rem;
       }
 
-      .intro p {
-        display: flex;
-        justify-content: center;
+      .filterh1 {
+        text-align: center;
+      }
+
+      .filterp {
+        text-align: center;
       }
 
 
@@ -113,7 +116,8 @@ get_header();
         <main id="main_content">
 
         <div class="intro">
-        <p>
+        <h3 class="filterh1">CV Skabeloner</h3>
+        <p class="filterp">
         CV skabeloner tekst
         </p>
         </div>
