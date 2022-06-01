@@ -40,7 +40,7 @@ get_header();
       /* ----- filter knapper ---- */
         .filter-btn {
         border: solid 1px #E6C375 !important;
-        background-color: white !important;
+        background-color: #ECEDE9 !important;
         color: #E6C375 !important;
       }
 
