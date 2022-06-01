@@ -25,9 +25,6 @@ get_header();
       }
 
       #main_content {
-          padding-inline: 8px;
-          max-width: 1200px;
-          margin-inline: auto;
           background-color: #ECEDE9;
         }
 
@@ -36,6 +33,8 @@ get_header();
         grid-template-columns: repeat(auto-fill, minmax(375px, 1fr));
         gap: 36px 24px;
         padding: 40px;
+        max-width: 1200px;
+        margin-inline: auto;
       }
 
       /* ----- filter knapper ---- */
@@ -63,6 +62,8 @@ get_header();
         justify-content: space-evenly;
         flex-direction: row;
         margin-top: 3em;
+        max-width: 1200px;
+        margin-inline: auto;
       }
 
       @media (max-width: 840px) {
