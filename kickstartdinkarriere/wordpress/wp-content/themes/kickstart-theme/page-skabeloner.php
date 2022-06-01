@@ -78,7 +78,6 @@ get_header();
         cursor: pointer;
         transition: 0.3s box-shadow, 0.5s transform;
         overflow: hidden;
-        max-height: 400px;
       }
 
       .kort_beskrivelse {
@@ -92,6 +91,13 @@ get_header();
         position: absolute;
         left: 0;
         bottom: -1.5rem;
+      }
+
+      .billede {
+        height: 100%;
+        background-size: 105%;
+        background-position: center;
+        transition: 0.5s 
       }
 
 
