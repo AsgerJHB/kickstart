@@ -93,7 +93,7 @@ get_header();
       }
 
       .intro p {
-        margin-top: 4em;
+        justify-content: center;
       }
 
 
