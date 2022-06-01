@@ -28,6 +28,19 @@ get_header();
           background-color: #ECEDE9;
         }
 
+        .filterp {
+          padding-inline: 20%;
+        }
+
+      
+         .intro {
+          background-image: url(http://asgerjhb.dk/kea/02_SEM/kickstartdinkarriere/wordpress/wp-content/uploads/2022/06/bolge_cv-2.webp);
+          background-position-y: -280px;
+          object-fit: cover;
+          background-repeat: no-repeat;
+          }
+      
+
       #content_skabeloner {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(375px, 1fr));
@@ -122,9 +135,9 @@ get_header();
         <div class="intro">
         <h1 class="filterh1">CV Skabeloner</h1>
         <p class="filterp">
-        CV skabeloner tekst
+        CV skabeloner tekst Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde optio id sequi veritatis consectetur eaque corporis animi corrupti dignissimos minus et possimus quas ea voluptates quis, aliquam, minima laborum at.
         </p>
-        </div>
+        <!-- </div> -->
 
         <div id="filter_menu">
             <div id="filter">
@@ -134,6 +147,7 @@ get_header();
             <button class="filter-btn" data-category="formel">Formel</button>
             <button class="filter-btn" data-category="kreativ">Kreativ</button>
             </div>
+        </div>
         </div>
         <section id="content_skabeloner">
 
