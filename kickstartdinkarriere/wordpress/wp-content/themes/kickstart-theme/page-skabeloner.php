@@ -30,7 +30,6 @@ get_header();
 
         .filterp {
           padding-inline: 20%;
-          text-align: left;
         }
 
       
@@ -138,7 +137,7 @@ get_header();
       }
 
       .filterp {
-        text-align: center;
+        text-align: left;
       }
 
       .kort_indhold {
