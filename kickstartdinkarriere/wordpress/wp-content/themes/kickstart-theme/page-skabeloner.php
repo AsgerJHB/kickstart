@@ -181,7 +181,7 @@ get_header();
         <div class="intro">
         <h1 class="filterh1">CV Skabeloner</h1>
         <p class="filterp">
-        CV skabeloner tekst Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde optio id sequi veritatis consectetur eaque corporis animi corrupti dignissimos minus et possimus quas ea voluptates quis, aliquam, minima laborum at.
+          Dette er alle mine CV skabeloner. Hver af CV-skabelonerne er ekspert designet og følger de nøjagtige "cv-regler", som en kommende arbejdsplads kunne have til dig. Skil dig ud, og bliv ansat hurtigere med en super fed CV-skabeloner. Skriv til mig, hvis du er i tvivl om hvilken skabelon der passer til netop dig!
         </p>
         <!-- </div> -->
 
