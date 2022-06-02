@@ -95,6 +95,7 @@ a {
   background-image: url(http://asgerjhb.dk/kea/02_SEM/kickstartdinkarriere/wordpress/wp-content/uploads/2022/05/bolge1_bottom_hojre.webp);
   object-fit: cover !important;
   background-position-y: -450px;
+  background-repeat: no-repeat;
 }
 
 #forside_section4h {
