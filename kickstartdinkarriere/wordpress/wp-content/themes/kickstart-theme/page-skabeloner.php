@@ -132,7 +132,9 @@ get_header();
 
         <template>
             <article class="skabelon_indhold">
-              <img src="" alt="" class="billede">
+              <div class="billede_container">
+                <img src="" alt="" class="billede">
+              </div>
               <div class="kort_indhold">
                 <h3 class="overskrift"></h3>
                 <p class="kort_beskrivelse"></p>
