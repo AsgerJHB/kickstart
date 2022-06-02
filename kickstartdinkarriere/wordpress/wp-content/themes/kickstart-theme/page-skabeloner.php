@@ -104,6 +104,7 @@ get_header();
         font-size: 0.9rem;
         margin-left: 1rem;
         margin-right: 1rem;
+        text-align: center;
       }
 
       .overskrift {
