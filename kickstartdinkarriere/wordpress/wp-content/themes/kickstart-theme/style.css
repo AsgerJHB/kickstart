@@ -40,6 +40,15 @@ a {
   text-decoration: none !important;
 }
 
+/* Nav font */
+.elementor-1424
+  .elementor-element.elementor-element-59847ca1
+  .elementskit-navbar-nav
+  > li
+  > a {
+  font-family: montserrat, sans-serif !important;
+}
+
 /* fjerne sidernes titler */
 .page-header {
   display: none;
