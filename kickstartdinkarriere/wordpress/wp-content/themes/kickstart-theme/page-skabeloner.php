@@ -142,11 +142,14 @@ get_header();
 
       .filterp {
         text-align: left;
+        color: #3F4F49;
       }
 
       .disclaimer {
         text-align: center;
         align-items: center;
+        margin-top: 0.5rem;
+        color: #D1D9D1;
       }
 
       .kort_indhold {
