@@ -103,14 +103,14 @@ get_header();
         position: relative;
       }
 
-      /* .kort_beskrivelse::after {
+      .kort_beskrivelse::after {
         content: "Læs mere";
         text-decoration: underline;
         padding-right: 0.5rem;
         position: absolute;
         right: 0;
         bottom: 0;
-      } */
+      }
 
       .pris {
         left: 0;
@@ -137,11 +137,6 @@ get_header();
         overflow: hidden;
       }
 
-      .semere {
-        display: flex;
-        justify-content: space-between;
-      }
-
 
     </style>
 
@@ -153,10 +148,7 @@ get_header();
               <div class="kort_indhold">
                 <h3 class="overskrift"></h3>
                 <p class="kort_beskrivelse"></p>
-                <div class="semere">
-                  <p class="pris"></p>
-                  <button>Se mere</button>
-                </div>
+                <p class="pris"></p>
               </div>
             </article>
         </template>
