@@ -151,7 +151,7 @@ get_header();
         text-align: center;
         align-items: center;
         margin-top: 0.5rem;
-        color: #D1D9D1;
+        color: black;
       }
 
       .kort_indhold {
