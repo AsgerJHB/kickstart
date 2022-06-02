@@ -106,7 +106,7 @@ get_header();
         margin-right: 1rem;
       }
 
-      .overskrift h3 {
+      .overskrift {
         font-size: 1.1rem;
         margin-left: 1rem;
         margin-right: 1rem;
