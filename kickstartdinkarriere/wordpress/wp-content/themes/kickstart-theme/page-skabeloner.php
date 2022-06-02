@@ -125,6 +125,7 @@ get_header();
       .kort_indhold {
         display: grid;
         grid-template-rows: auto auto;
+        background-color: white;
       }
 
       .billede_container {
