@@ -30,6 +30,7 @@ get_header();
 
         .filterp {
           padding-inline: 20%;
+          text-align: left;
         }
 
       
