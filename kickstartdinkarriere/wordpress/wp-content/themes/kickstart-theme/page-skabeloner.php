@@ -122,16 +122,23 @@ get_header();
         text-align: center;
       }
 
+      .kort_indhold {
+        display: grid;
+        grid-template-rows: auto auto;
+      }
+
 
     </style>
 
         <template>
             <article class="skabelon_indhold">
               <img src="" alt="" class="billede">
+              <div class="kort_indhold">
                 <h3 class="overskrift"></h3>
                 <p class="kort_beskrivelse"></p>
                 <p class="pris"></p>
                 <p class="kategori"></p>
+              </div>
             </article>
         </template>
 
