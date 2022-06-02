@@ -224,7 +224,7 @@ get_header();
             clone.querySelector(".overskrift").textContent = `${skabelon.title.rendered}`;
             clone.querySelector(".kort_beskrivelse").textContent = `${skabelon.kort_beskrivelse}`;
             clone.querySelector(".pris").textContent = `${skabelon.pris}`;
-            clone.querySelector(".kategori").textContent = `${skabelon.categories}`;
+            // clone.querySelector(".kategori").textContent = `${skabelon.categories}`;
             clone.querySelector("article").addEventListener("click", () => location.href = `${skabelon.link}`); //gør det klikbart og kalder på showPopUp() funktionen som parameter
             mainContent.appendChild(clone);
           }
