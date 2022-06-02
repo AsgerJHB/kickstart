@@ -114,6 +114,12 @@ get_header();
         margin-left: 1rem;
         margin-right: 1rem;
         text-align: center;
+        text-align: center;
+        background-color: #D1D9D1;
+        max-height: 1.5rem;
+        align-content: center;
+        border-radius: 10px;
+        color: white;
       }
 
       /* .kort_beskrivelse::after {
