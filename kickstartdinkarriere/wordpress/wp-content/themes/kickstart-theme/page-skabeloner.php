@@ -211,7 +211,7 @@ get_header();
           Dette er alle mine CV skabeloner. Hver af CV-skabelonerne er ekspert designet og følger de nøjagtige "cv-regler", som en kommende arbejdsplads kunne have til dig. Skil dig ud, og bliv ansat hurtigere med en super fed CV-skabeloner. Skriv til mig, hvis du er i tvivl om hvilken skabelon der passer til netop dig!
         </p>
         <p class="disclaimer">
-          CV-skabelonerne købes hos ekstern udbyder
+          CV-skabelonerne købes hos eksterne udbydere
         </p>
         <!-- </div> -->
 
