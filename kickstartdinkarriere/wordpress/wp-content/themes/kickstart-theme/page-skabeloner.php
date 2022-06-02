@@ -91,12 +91,12 @@ get_header();
         aspect-ratio: 2/3;
         box-shadow: #80808040 2px 4px 8px 0px;
         cursor: pointer;
-        /* transition: 0.3s box-shadow, 0.5s transform !important; */
+        transition: 0.3s box-shadow, 0.5s transform;
         overflow: hidden;
       }
       .skabelon_indhold:hover{
-     transform: translateY(-10px);
-     box-shadow: #80808080 2px 4px 16px 4px;
+        transform: translateY(-10px);
+        box-shadow: #80808080 2px 4px 16px 4px;
       }
 
       .kort_beskrivelse {
