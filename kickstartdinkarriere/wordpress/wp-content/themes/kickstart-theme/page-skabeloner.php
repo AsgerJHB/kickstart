@@ -106,7 +106,7 @@ get_header();
       .kort_beskrivelse::after {
         content: "Læs mere";
         text-decoration: underline;
-        padding-left: 0.25rem;
+        padding-left: 2rem;
         position: absolute;
         left: 0;
         bottom: -1.5rem;
