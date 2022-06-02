@@ -127,6 +127,10 @@ get_header();
         grid-template-rows: auto auto;
       }
 
+      .billede_container {
+        overflow: hidden;
+      }
+
 
     </style>
 
