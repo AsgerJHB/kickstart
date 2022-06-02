@@ -174,7 +174,7 @@ get_header();
                 <p class="kort_beskrivelse"></p>
                 <div class="semere">
                   <p class="pris"></p>
-                  <button>Se mere</button>
+                  <button class="button_skabeloner">Læs mere</button>
                 </div>
               </div>
             </article>
