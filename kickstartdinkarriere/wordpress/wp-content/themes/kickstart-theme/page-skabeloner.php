@@ -152,6 +152,7 @@ get_header();
         align-items: center;
         margin-top: 0.5rem;
         color: black;
+        font-size: 0.8rem;
       }
 
       .kort_indhold {
