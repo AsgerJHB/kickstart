@@ -105,6 +105,7 @@ get_header();
         margin-left: 1rem;
         margin-right: 1rem;
         text-align: center;
+        color: #3F4F49;
       }
 
       .overskrift {
@@ -132,6 +133,7 @@ get_header();
       .pris {
         left: 0;
         bottom: 0;
+        color: #3F4F49;
       }
 
       .filterh1 {
