@@ -108,6 +108,7 @@ get_header();
 
       .overskrift {
         font-size: 1.1rem;
+        margin-top: 1rem;
         margin-left: 1rem;
         margin-right: 1rem;
         text-align: center;
