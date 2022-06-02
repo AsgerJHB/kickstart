@@ -52,17 +52,17 @@ get_header();
 
       /* ----- filter knapper ---- */
         .filter-btn {
-        border: solid 1px #E6C375 !important;
-        background-color: #ECEDE9 !important;
+        border: solid 1px #FFF !important;
+        background-color: #FFF !important;
         color: #E6C375 !important;
       }
 
       .filter-btn:hover {
-        border: solid 1px #f0c259 !important;
-        background-color: #f0c259 !important;
+        border: solid 1px #e6c375 !important;
+        background-color: #e6c375 !important;
         color: white !important;
       }
-
+      
          .filter-btn.selected {
         border: solid 1px #E6C375 !important;
         background-color: #E6C375!important;
@@ -171,6 +171,16 @@ get_header();
         align-items: center;
         margin: 1rem;
         margin-top: 0;
+      }
+      .button_skabeloner{
+        background-color: #E6C375 !important;
+        color: white !important;
+        border: none;
+      }
+      .button_skabeloner:hover{
+        background-color: #6A7670 !important;
+        color: white !important;
+        border: none;
       }
 
     </style>
