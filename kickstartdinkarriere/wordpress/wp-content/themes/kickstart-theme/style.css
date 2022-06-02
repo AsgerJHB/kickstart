@@ -148,13 +148,15 @@ Element,
   background-color: #e6c375 !important;
   color: white !important;
   margin-left: 20px !important;
+  font-family: montserrat, sans-serif !important;
 }
 
 .single_add_to_cart_button:hover {
-  border: solid 1px #f0c259 !important;
-  background-color: #f0c259 !important;
+  border: solid 1px #6a7670 !important;
+  background-color: #6a7670 !important;
   color: white !important;
   transform: scale(1) !important;
+  font-family: montserrat, sans-serif !important;
 }
 
 .woocommerce-message {
@@ -167,11 +169,38 @@ Element,
   background-color: #e6c375 !important;
   color: white !important;
   margin-left: 20px !important;
+  font-family: montserrat, sans-serif !important;
 }
 
 .checkout-button:hover {
-  border: solid 1px #f0c259 !important;
-  background-color: #f0c259 !important;
+  border: solid 1px #6a7670 !important;
+  background-color: #6a7670 !important;
   color: white !important;
   transform: scale(1) !important;
+  font-family: montserrat, sans-serif !important;
+}
+
+/* andre lignede e-bøger knap */
+li.product:nth-child(3) > a:nth-child(2),
+li.product:nth-child(2) > a:nth-child(2),
+li.product:nth-child(1) > a:nth-child(2) {
+  background-color: #e6c375;
+  border-radius: 30px !important;
+  color: white !important;
+  font-family: montserrat, sans-serif !important;
+}
+
+li.product:nth-child(3) > a:nth-child(2):hover,
+li.product:nth-child(2) > a:nth-child(2):hover,
+li.product:nth-child(1) > a:nth-child(2):hover {
+  background-color: #6a7670 !important;
+  color: white !important;
+  font-family: montserrat, sans-serif !important;
+}
+
+/* --kontakt os - sociale medie ikoner hover */
+.elementor-repeater-item-721c0b3 > i:nth-child(2):hover,
+.elementor-repeater-item-918250c > i:nth-child(2):hover,
+.elementor-repeater-item-83d113a > i:nth-child(2):hover {
+  color: #6a7670 !important;
 }
