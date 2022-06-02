@@ -101,6 +101,16 @@ get_header();
 
       .kort_beskrivelse {
         position: relative;
+        font-size: 0.9rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+      }
+
+      .overskrift h3 {
+        font-size: 1.1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        text-align: center;
       }
 
       /* .kort_beskrivelse::after {
