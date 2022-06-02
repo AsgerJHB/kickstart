@@ -109,6 +109,7 @@ get_header();
       .overskrift {
         font-size: 1.1rem;
         margin-top: 1rem;
+        margin-bottom: 0;
         margin-left: 1rem;
         margin-right: 1rem;
         text-align: center;
@@ -153,6 +154,7 @@ get_header();
         justify-content: space-between;
         align-items: center;
         margin: 1rem;
+        margin-top: 0;
       }
 
 
