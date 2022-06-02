@@ -62,7 +62,7 @@ get_header();
         background-color: #e6c375 !important;
         color: white !important;
       }
-      
+
          .filter-btn.selected {
         border: solid 1px #E6C375 !important;
         background-color: #E6C375!important;
@@ -176,11 +176,13 @@ get_header();
         background-color: #E6C375 !important;
         color: white !important;
         border: none;
+       font-family: montserrat, sans-serif !important;
       }
       .button_skabeloner:hover{
         background-color: #6A7670 !important;
         color: white !important;
         border: none;
+        font-family: montserrat, sans-serif !important;
       }
 
     </style>
