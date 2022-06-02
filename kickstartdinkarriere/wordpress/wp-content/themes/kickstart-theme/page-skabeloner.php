@@ -144,6 +144,11 @@ get_header();
         text-align: left;
       }
 
+      .disclaimer {
+        text-align: center;
+        align-items: center;
+      }
+
       .kort_indhold {
         display: grid;
         grid-template-rows: auto auto;
@@ -186,6 +191,9 @@ get_header();
         <h1 class="filterh1">CV Skabeloner</h1>
         <p class="filterp">
           Dette er alle mine CV skabeloner. Hver af CV-skabelonerne er ekspert designet og følger de nøjagtige "cv-regler", som en kommende arbejdsplads kunne have til dig. Skil dig ud, og bliv ansat hurtigere med en super fed CV-skabeloner. Skriv til mig, hvis du er i tvivl om hvilken skabelon der passer til netop dig!
+        </p>
+        <p class="disclaimer">
+          (CV-skabelonerne købes hos ekstern udbyder.)
         </p>
         <!-- </div> -->
 
