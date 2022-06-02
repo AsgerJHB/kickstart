@@ -109,7 +109,12 @@ get_header();
         padding-right: 0.5rem;
         position: absolute;
         right: 0;
-        bottom: -1.5rem;
+        bottom: 0;
+      }
+
+      .pris {
+        left: 0;
+        bottom: 0;
       }
 
       .filterh1 {
