@@ -106,9 +106,9 @@ get_header();
       .kort_beskrivelse::after {
         content: "Læs mere";
         text-decoration: underline;
-        padding-left: 2rem;
+        padding-right: 0.5rem;
         position: absolute;
-        left: 0;
+        right: 0;
         bottom: -1.5rem;
       }
 
