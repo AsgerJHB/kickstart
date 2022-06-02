@@ -158,6 +158,18 @@ get_header();
         margin-top: 0;
       }
 
+      .billede {
+        height: 100%;
+        background-size: 105%;
+        background-position: center;
+        transition: 0.5s 
+      }
+
+      .skabelon_indhold:hover .billede {
+        background-size: 110%;
+        filter: brightness(0.75)
+      }
+
 
     </style>
 
