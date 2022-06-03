@@ -126,6 +126,10 @@ get_header(); ?>
         justify-content: space-around;
       }
 
+      .lang_beskrivelse {
+        color: #3F4F49;
+      }
+      
       </style>
 
       <main id="main_content">
