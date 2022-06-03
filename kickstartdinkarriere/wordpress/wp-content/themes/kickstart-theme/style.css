@@ -205,3 +205,26 @@ li.product:nth-child(1) > a:nth-child(2):hover {
 .elementor-repeater-item-83d113a > i:nth-child(2):hover {
   color: #e6c375 !important;
 }
+
+.forminator-ui#forminator-module-1817.forminator-design--flat
+  .forminator-button-submit:hover {
+  background-color: #6a7670 !important;
+  box-shadow: none !important;
+}
+
+#forminator-module-1216
+  > div:nth-child(5)
+  > div:nth-child(1)
+  > div:nth-child(1)
+  > button:nth-child(1):hover {
+  background-color: #6a7670 !important;
+  box-shadow: none !important;
+}
+
+div.forminator-row:nth-child(8)
+  > div:nth-child(1)
+  > div:nth-child(1)
+  > button:nth-child(1):hover {
+  background-color: #6a7670 !important;
+  box-shadow: none !important;
+}
