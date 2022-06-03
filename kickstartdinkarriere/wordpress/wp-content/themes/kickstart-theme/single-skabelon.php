@@ -106,7 +106,9 @@ get_header(); ?>
             </article>
             <article class="article_gap">
               <h4 class="køb">Køb CV-Skabelon Her!</h4>
-              <button class="koeb">Køb Her!</button>
+              <button class="koeb">Køb Her!
+                <p class="linkweb"></p>
+              </button>
             </article>
       	</section>
       </main>
@@ -126,6 +128,8 @@ get_header(); ?>
 				document.querySelector(".lang_beskrivelse").innerHTML = `${skabelon.lang_beskrivelse}`;
           		document.querySelector(".billede").src = `${skabelon.billede.guid}`;
 				document.querySelector(".pris").textContent = `${skabelon.pris + " kr."}`; 
+        document.querySelector(".koeb").src("click", () => location.href = `${skabelon.linkweb}`); 
+            mainContent.appendChild(clone);
 			  }
 
 		  	document.getElementById("back").addEventListener("click", () => {
