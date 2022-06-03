@@ -90,11 +90,17 @@ get_header(); ?>
       .prisogknap {
         display: flex;
         justify-content: space-evenly;
-        margin-top: 4rem;
+        align-items: center;
       }
 
       .overskrift {
         margin-bottom: 3.5rem;
+      }
+
+      .col_left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
       }
 
       </style>
