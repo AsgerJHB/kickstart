@@ -88,6 +88,10 @@ get_header(); ?>
         font-family: montserrat, sans-serif !important;
       }
 
+      .prisogknap {
+        display: flex;
+      }
+
       </style>
 
       <main id="main_content">
