@@ -154,7 +154,7 @@ get_header();
         color: black;
         font-size: 0.8rem;
         font-weight: bold;
-        opacity: 50%;
+        opacity: 55%;
       }
 
       .kort_indhold {
