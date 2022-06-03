@@ -54,7 +54,7 @@ get_header();
         .filter-btn {
         border: solid 1px #e6c375 !important;
         background-color: #e6c375 !important;
-        color: #E6C375 !important;
+        color: white !important;
       }
 
       .filter-btn:hover {
@@ -64,8 +64,8 @@ get_header();
       }
 
          .filter-btn.selected {
-        border: solid 1px #E6C375 !important;
-        background-color: #E6C375!important;
+        border: solid 1px #6A7670 !important;
+        background-color: #6A7670!important;
         color: white !important;
       }
 
