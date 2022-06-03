@@ -77,6 +77,8 @@ get_header();
         margin-top: 3em;
         max-width: 700px;
         margin-inline: auto;
+        flex-wrap: wrap;
+        gap: 0.5rem;
       }
 
       @media (max-width: 840px) {
