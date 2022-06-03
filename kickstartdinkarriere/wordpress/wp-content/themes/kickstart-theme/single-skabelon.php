@@ -45,7 +45,6 @@ get_header(); ?>
         }
 
         #main_content {
-          padding-inline: 8px;
           max-width: 1200px;
           margin-inline: auto;
         }
@@ -90,6 +89,8 @@ get_header(); ?>
 
       .prisogknap {
         display: flex;
+        justify-content: space-evenly;
+        margin-top: 4rem;
       }
 
       </style>
