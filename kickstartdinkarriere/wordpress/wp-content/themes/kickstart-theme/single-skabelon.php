@@ -50,7 +50,7 @@ get_header(); ?>
 
         .container {
           max-width: 1200px;
-          margin-inline: 20%;
+          margin-inline: auto;
         }
 
         #single_post {
