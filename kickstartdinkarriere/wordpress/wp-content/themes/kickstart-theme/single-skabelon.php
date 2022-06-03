@@ -66,6 +66,10 @@ get_header(); ?>
             display: block;
             flex-direction: column;
           }
+          .prisogknap {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+      }
         }
 
         .article_gap {
