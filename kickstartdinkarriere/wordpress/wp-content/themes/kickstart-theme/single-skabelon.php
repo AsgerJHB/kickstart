@@ -54,14 +54,17 @@ get_header(); ?>
         }
 
         #single_post {
-          display: grid;
+          /* display: grid;
           grid-template-columns: 1fr 1fr;
-          gap: 40px;
+          gap: 40px; */
+          display: flex;
+          justify-content: space-between;
         }
 
         @media (max-width: 640px) {
           #single_post {
             display: block;
+            flex-direction: column;
           }
         }
 
