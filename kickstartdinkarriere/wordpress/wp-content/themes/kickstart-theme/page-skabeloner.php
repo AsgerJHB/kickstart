@@ -52,14 +52,14 @@ get_header();
 
       /* ----- filter knapper ---- */
         .filter-btn {
-        border: solid 1px #FFF !important;
-        background-color: #FFF !important;
+        border: solid 1px #e6c375 !important;
+        background-color: #e6c375 !important;
         color: #E6C375 !important;
       }
 
       .filter-btn:hover {
-        border: solid 1px #e6c375 !important;
-        background-color: #e6c375 !important;
+        border: solid 1px #6A7670!important;
+        background-color: #6a7670!important;
         color: white !important;
       }
 
