@@ -96,17 +96,23 @@ get_header(); ?>
         <section id="single_post">
           <div class="col_left">
             <p class="lang_beskrivelse"></p>
+            <div class="prisogknap">
+              <p class="pris"></p>
+              <button class="koeb">Køb Her!
+                <p class="linkweb"></p>
+              </button>
+            </div>
           </div>
           <div class="col_right">
             <img class="billede" src="" alt="">
           </div>
-          <article class="article_gap">
+          <!-- <article class="article_gap">
               <p class="pris"></p>
-            </article>
+            </article> -->
             <article class="article_gap">
-              <button class="koeb">Køb Her!
+              <!-- <button class="koeb">Køb Her!
                 <p class="linkweb"></p>
-              </button>
+              </button> -->
             </article>
       	</section>
       </main>
