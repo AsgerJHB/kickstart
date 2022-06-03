@@ -45,7 +45,10 @@ get_header(); ?>
         }
 
         #main_content {
-          background-color: #ECEDE9;
+          background-color: #ECEDE9; 
+        }
+
+        .container {
           max-width: 1200px;
           margin-inline: auto;
         }
@@ -107,6 +110,7 @@ get_header(); ?>
       </style>
 
       <main id="main_content">
+        <div class="container">
         <div id="back">&#x2715;</div>
         <h2 class="overskrift"></h2>
         <section id="single_post">
@@ -131,6 +135,7 @@ get_header(); ?>
               </button> -->
             </article>
       	</section>
+        </div>
       </main>
 
       <script>
