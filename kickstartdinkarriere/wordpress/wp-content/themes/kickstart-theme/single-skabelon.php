@@ -60,6 +60,7 @@ get_header(); ?>
           display: flex;
           justify-content: space-between;
           padding-bottom: 4rem;
+          gap: 4rem;
         }
 
         @media (max-width: 640px) {
