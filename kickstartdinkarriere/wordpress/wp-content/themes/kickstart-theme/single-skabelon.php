@@ -93,6 +93,10 @@ get_header(); ?>
         margin-top: 4rem;
       }
 
+      .overskrift {
+        margin-bottom: 3.5rem;
+      }
+
       </style>
 
       <main id="main_content">
