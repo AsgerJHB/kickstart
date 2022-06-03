@@ -294,12 +294,19 @@ div.forminator-row:nth-child(8)
 }
 
 /* kurv- woocommorce */
-.page-header {
+
+html
+  body.page-template-default.page.page-id-976.logged-in.admin-bar.theme-hello-elementor.woocommerce-cart.woocommerce-page.woocommerce-js.ehf-footer.ehf-template-hello-elementor.ehf-stylesheet-kickstart-theme.elementor-default.elementor-kit-6.customize-support.e--ua-firefox.e--ua-mac
+  main#content.site-main.post-976.page.type-page.status-publish.hentry
+  header.page-header {
   text-align: center;
   margin-top: 50px;
   display: block;
 }
-.page-content {
+html
+  body.page-template-default.page.page-id-976.logged-in.admin-bar.theme-hello-elementor.woocommerce-cart.woocommerce-page.woocommerce-js.ehf-footer.ehf-template-hello-elementor.ehf-stylesheet-kickstart-theme.elementor-default.elementor-kit-6.customize-support.e--ua-firefox.e--ua-mac
+  main#content.site-main.post-976.page.type-page.status-publish.hentry
+  div.page-content {
   margin-top: 30px;
 }
 
