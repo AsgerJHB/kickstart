@@ -82,6 +82,10 @@ get_header(); ?>
         .container {
           margin-inline: 10%;
         }
+        .prisogknap {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+      }
       }
 
         .article_gap {
