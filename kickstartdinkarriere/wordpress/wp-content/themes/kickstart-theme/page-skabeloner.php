@@ -153,6 +153,8 @@ get_header();
         margin-top: 0.5rem;
         color: black;
         font-size: 0.8rem;
+        font-weight: bold;
+        opacity: 50%;
       }
 
       .kort_indhold {
