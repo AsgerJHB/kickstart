@@ -45,6 +45,7 @@ get_header(); ?>
         }
 
         #main_content {
+          background-color: #ECEDE9;
           max-width: 1200px;
           margin-inline: auto;
         }
