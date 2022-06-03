@@ -70,6 +70,10 @@ get_header(); ?>
             margin-top: 2rem;
             margin-bottom: 2rem;
       }
+      .container {
+          max-width: 1200px;
+          margin-inline: 5%;
+        }
         }
 
         .article_gap {
