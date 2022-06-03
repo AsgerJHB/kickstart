@@ -85,6 +85,12 @@ get_header();
         #content_skabeloner {
           grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         }
+        .filterp {
+          padding-inline: 5%;
+        }   
+        .disclaimer {
+           margin-top: 10%;
+        }
       }
 
       .skabelon_indhold {
