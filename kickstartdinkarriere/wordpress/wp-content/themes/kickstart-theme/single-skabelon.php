@@ -75,6 +75,19 @@ get_header(); ?>
           text-align: center !important;
         }
 
+      .koeb {
+        background-color: #E6C375 !important;
+        color: white !important;
+        border: none;
+        font-family: montserrat, sans-serif !important;
+      }
+      .koeb:hover{
+        background-color: #6A7670 !important;
+        color: white !important;
+        border: none;
+        font-family: montserrat, sans-serif !important;
+      }
+
       </style>
 
       <main id="main_content">
@@ -93,7 +106,7 @@ get_header(); ?>
             </article>
             <article class="article_gap">
               <h4 class="køb">Køb CV-Skabelon Her!</h4>
-              <button>Køb Her!</button>
+              <button class="koeb">Køb Her!</button>
             </article>
       	</section>
       </main>
