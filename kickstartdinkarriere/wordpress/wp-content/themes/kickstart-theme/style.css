@@ -135,6 +135,10 @@ Element,
   color: #242323 !important;
 }
 
+/* logo på splashvideo */
+div.elementor-container:nth-child(2) {
+  width: 70%;
+}
 /* ----- e-bøger og kurser -- singleview - baggrund */
 #primary {
   background-image: url(http://asgerjhb.dk/kea/02_SEM/kickstartdinkarriere/wordpress/wp-content/uploads/2022/05/bolge2_top.webp);
@@ -227,4 +231,64 @@ div.forminator-row:nth-child(8)
   > button:nth-child(1):hover {
   background-color: #6a7670 !important;
   box-shadow: none !important;
+}
+
+/* Tablet version - 1024px */
+@media (max-width: 1024px) {
+  .elementor-element-1589268 {
+    order: 2;
+  }
+
+  .elementor-element-7b11d66 {
+    order: 1;
+  }
+  .elementor-element-b7b04d4 {
+    order: 3;
+  }
+
+  .elementor-1424 .elementor-element.elementor-element-ecb40a6 {
+    width: 32.143%;
+  }
+
+  .elementor-1424 .elementor-element.elementor-element-b7b04d4 {
+    padding-left: 48%;
+    padding-right: 4%;
+  }
+  .elementor-1424
+    .elementor-element.elementor-element-7b11d66
+    > .elementor-element-populated {
+    padding: 18px 0px 0px 0px;
+  }
+  .elementor-1424 .elementor-element.elementor-element-1589268 {
+    width: 7.974%;
+  }
+
+  .elementor-1424
+    .elementor-element.elementor-element-1589268
+    > .elementor-element-populated {
+    padding: 18px 0px 0px 0px;
+  }
+  .elementor-element-ecb40a6 {
+    margin-right: 45%;
+  }
+}
+/* Mobil version - 767px*/
+@media (max-width: 767px) {
+  .elementor-element-b7b04d4 {
+    width: 0%;
+  }
+  .elementor-1424 .elementor-element.elementor-element-ecb40a6 {
+    width: 95.143%;
+  }
+
+  .elementor-element-17f7e0bb {
+    padding-left: 20px;
+  }
+  .elementor-element-0b13ddc {
+    padding-left: 20px;
+  }
+
+  .elementor-element-ecb40a6 {
+    margin-right: 0%;
+  }
 }
