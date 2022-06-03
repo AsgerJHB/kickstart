@@ -107,7 +107,7 @@ get_header(); ?>
             <article class="article_gap">
               <h4 class="køb">Køb CV-Skabelon Her!</h4>
               <button class="koeb">Køb Her!
-                <p class="link"></p>
+                <p class="linkweb"></p>
               </button>
             </article>
       	</section>
