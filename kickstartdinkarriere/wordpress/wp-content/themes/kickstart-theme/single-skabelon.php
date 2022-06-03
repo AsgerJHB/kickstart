@@ -129,6 +129,10 @@ get_header(); ?>
       .lang_beskrivelse {
         color: #3F4F49;
       }
+
+      .pris {
+        font-weight: bold;
+      }
       
       </style>
 
