@@ -128,7 +128,7 @@ get_header(); ?>
 				document.querySelector(".lang_beskrivelse").innerHTML = `${skabelon.lang_beskrivelse}`;
           		document.querySelector(".billede").src = `${skabelon.billede.guid}`;
 				document.querySelector(".pris").textContent = `${skabelon.pris + " kr."}`; 
-        document.querySelector(".koeb").textContent("click", () => location.href = `${skabelon.link}`); 
+        document.querySelector(".koeb").textContent("click", () => location.href = `${skabelon.linkweb}`); 
             mainContent.appendChild(clone);
 			  }
 
