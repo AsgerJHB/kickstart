@@ -64,10 +64,10 @@ get_header(); ?>
 
         .article_gap {
           margin-top: 2rem;
+          margin-bottom: 4rem;
           display: flex;
           flex-direction: column;
           align-items: center;
-          margin-bottom: 4rem;
           gap: 2rem;
         }
 
