@@ -59,6 +59,7 @@ get_header(); ?>
           gap: 40px; */
           display: flex;
           justify-content: space-between;
+          padding-bottom: 4rem;
         }
 
         @media (max-width: 640px) {
