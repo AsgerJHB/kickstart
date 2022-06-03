@@ -81,7 +81,7 @@ get_header(); ?>
         border: none;
         font-family: montserrat, sans-serif !important;
       }
-      .koeb:hover{
+      .koeb:hover {
         background-color: #6A7670 !important;
         color: white !important;
         border: none;
