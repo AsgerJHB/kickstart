@@ -76,6 +76,12 @@ get_header(); ?>
         }
         }
 
+        @media (max-width: 840px) {
+        .container {
+          margin-inline: 10%;
+        }
+      }
+
         .article_gap {
           margin-top: 2rem;
           margin-bottom: 4rem;
