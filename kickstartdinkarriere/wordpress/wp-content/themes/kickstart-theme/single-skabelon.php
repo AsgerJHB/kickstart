@@ -81,7 +81,7 @@ get_header(); ?>
         border: none;
         font-family: montserrat, sans-serif !important;
       }
-      .koeb:hover{
+      .koeb:hover {
         background-color: #6A7670 !important;
         color: white !important;
         border: none;
@@ -125,7 +125,7 @@ get_header(); ?>
 				document.querySelector(".overskrift").textContent = `${skabelon.title.rendered}`;
 				document.querySelector(".lang_beskrivelse").innerHTML = `${skabelon.lang_beskrivelse}`;
           		document.querySelector(".billede").src = `${skabelon.billede.guid}`;
-				document.querySelector(".pris").textContent = `${skabelon.pris}`; 
+				document.querySelector(".pris").textContent = `${skabelon.pris + " kr."}`; 
 			  }
 
 		  	document.getElementById("back").addEventListener("click", () => {
