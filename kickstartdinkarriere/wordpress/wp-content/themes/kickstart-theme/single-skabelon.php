@@ -45,22 +45,48 @@ get_header(); ?>
         }
 
         #main_content {
-          padding-inline: 8px;
+          background-color: #ECEDE9; 
+        }
+
+        .container {
           max-width: 1200px;
           margin-inline: auto;
         }
 
         #single_post {
-          display: grid;
+          /* display: grid;
           grid-template-columns: 1fr 1fr;
-          gap: 40px;
+          gap: 40px; */
+          display: flex;
+          justify-content: space-between;
+          padding-bottom: 4rem;
+          gap: 4rem;
         }
 
         @media (max-width: 640px) {
           #single_post {
             display: block;
+            flex-direction: column;
           }
+          .prisogknap {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+      }
+      .container {
+          max-width: 1200px;
+          margin-inline: 5%;
         }
+        }
+
+        @media (max-width: 840px) {
+        .container {
+          margin-inline: 10%;
+        }
+        .prisogknap {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+      }
+      }
 
         .article_gap {
           margin-top: 2rem;
@@ -88,29 +114,59 @@ get_header(); ?>
         font-family: montserrat, sans-serif !important;
       }
 
+      .prisogknap {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+
+      .overskrift {
+        margin-bottom: 3.5rem;
+      }
+
+      .col_left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+
+      .lang_beskrivelse {
+        color: #3F4F49;
+      }
+
+      .pris {
+        font-weight: bold;
+      }
+      
       </style>
 
       <main id="main_content">
+        <div class="container">
         <div id="back">&#x2715;</div>
         <h2 class="overskrift"></h2>
         <section id="single_post">
           <div class="col_left">
             <p class="lang_beskrivelse"></p>
+            <div class="prisogknap">
+              <p class="pris"></p>
+              <button class="koeb">Køb Her!
+                <p class="linkweb"></p>
+              </button>
+            </div>
           </div>
           <div class="col_right">
             <img class="billede" src="" alt="">
           </div>
-          <article class="article_gap">
-              <h4 class="pris_text">Pris for CV-Skabelon</h4>
+          <!-- <article class="article_gap">
               <p class="pris"></p>
-            </article>
+            </article> -->
             <article class="article_gap">
-              <h4 class="køb">Køb CV-Skabelon Her!</h4>
-              <button class="koeb">Køb Her!
+              <!-- <button class="koeb">Køb Her!
                 <p class="linkweb"></p>
-              </button>
+              </button> -->
             </article>
       	</section>
+        </div>
       </main>
 
       <script>
@@ -127,8 +183,8 @@ get_header(); ?>
 				document.querySelector(".overskrift").textContent = `${skabelon.title.rendered}`;
 				document.querySelector(".lang_beskrivelse").innerHTML = `${skabelon.lang_beskrivelse}`;
           		document.querySelector(".billede").src = `${skabelon.billede.guid}`;
-				document.querySelector(".pris").textContent = `${skabelon.pris + " kr."}`; 
-        document.querySelector(".koeb").src("click", () => location.href = `${skabelon.linkweb}`); 
+				document.querySelector(".pris").textContent = `${"Pris: " + skabelon.pris + " kr."}`; 
+        document.querySelector(".koeb").addEventListener("click", () => location.href = `${skabelon.linkweb}`); 
             mainContent.appendChild(clone);
 			  }
 
