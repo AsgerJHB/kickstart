@@ -234,7 +234,7 @@ div.forminator-row:nth-child(8)
 }
 
 /* Tablet version - 1024px */
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .elementor-element-1589268 {
     order: 2;
   }
@@ -271,9 +271,9 @@ div.forminator-row:nth-child(8)
   .elementor-element-ecb40a6 {
     margin-right: 45%;
   }
-}
+} */
 /* Mobil version - 767px*/
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .elementor-element-b7b04d4 {
     width: 0%;
   }
@@ -291,7 +291,7 @@ div.forminator-row:nth-child(8)
   .elementor-element-ecb40a6 {
     margin-right: 0%;
   }
-}
+} */
 
 /* kurv- woocommorce */
 
